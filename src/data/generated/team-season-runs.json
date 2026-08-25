@@ -1,0 +1,842 @@
+[
+  {
+    "season": 2026,
+    "team": "ARI",
+    "games": 131,
+    "runs": 598,
+    "runsPerGame": 4.564885
+  },
+  {
+    "season": 2026,
+    "team": "ATH",
+    "games": 131,
+    "runs": 568,
+    "runsPerGame": 4.335878
+  },
+  {
+    "season": 2026,
+    "team": "ATL",
+    "games": 132,
+    "runs": 616,
+    "runsPerGame": 4.666667
+  },
+  {
+    "season": 2026,
+    "team": "BAL",
+    "games": 131,
+    "runs": 583,
+    "runsPerGame": 4.450382
+  },
+  {
+    "season": 2026,
+    "team": "BOS",
+    "games": 130,
+    "runs": 589,
+    "runsPerGame": 4.530769
+  },
+  {
+    "season": 2026,
+    "team": "CHC",
+    "games": 131,
+    "runs": 684,
+    "runsPerGame": 5.221374
+  },
+  {
+    "season": 2026,
+    "team": "CHW",
+    "games": 130,
+    "runs": 618,
+    "runsPerGame": 4.753846
+  },
+  {
+    "season": 2026,
+    "team": "CIN",
+    "games": 131,
+    "runs": 537,
+    "runsPerGame": 4.099237
+  },
+  {
+    "season": 2026,
+    "team": "CLE",
+    "games": 131,
+    "runs": 527,
+    "runsPerGame": 4.022901
+  },
+  {
+    "season": 2026,
+    "team": "COL",
+    "games": 130,
+    "runs": 617,
+    "runsPerGame": 4.746154
+  },
+  {
+    "season": 2026,
+    "team": "DET",
+    "games": 130,
+    "runs": 587,
+    "runsPerGame": 4.515385
+  },
+  {
+    "season": 2026,
+    "team": "HOU",
+    "games": 131,
+    "runs": 596,
+    "runsPerGame": 4.549618
+  },
+  {
+    "season": 2026,
+    "team": "KCR",
+    "games": 132,
+    "runs": 560,
+    "runsPerGame": 4.242424
+  },
+  {
+    "season": 2026,
+    "team": "LAA",
+    "games": 131,
+    "runs": 537,
+    "runsPerGame": 4.099237
+  },
+  {
+    "season": 2026,
+    "team": "LAD",
+    "games": 131,
+    "runs": 653,
+    "runsPerGame": 4.984733
+  },
+  {
+    "season": 2026,
+    "team": "MIA",
+    "games": 131,
+    "runs": 573,
+    "runsPerGame": 4.374046
+  },
+  {
+    "season": 2026,
+    "team": "MIL",
+    "games": 131,
+    "runs": 650,
+    "runsPerGame": 4.961832
+  },
+  {
+    "season": 2026,
+    "team": "MIN",
+    "games": 131,
+    "runs": 600,
+    "runsPerGame": 4.580153
+  },
+  {
+    "season": 2026,
+    "team": "NYM",
+    "games": 131,
+    "runs": 546,
+    "runsPerGame": 4.167939
+  },
+  {
+    "season": 2026,
+    "team": "NYY",
+    "games": 130,
+    "runs": 579,
+    "runsPerGame": 4.453846
+  },
+  {
+    "season": 2026,
+    "team": "PHI",
+    "games": 131,
+    "runs": 599,
+    "runsPerGame": 4.572519
+  },
+  {
+    "season": 2026,
+    "team": "PIT",
+    "games": 132,
+    "runs": 653,
+    "runsPerGame": 4.94697
+  },
+  {
+    "season": 2026,
+    "team": "SDP",
+    "games": 131,
+    "runs": 564,
+    "runsPerGame": 4.305344
+  },
+  {
+    "season": 2026,
+    "team": "SEA",
+    "games": 131,
+    "runs": 513,
+    "runsPerGame": 3.916031
+  },
+  {
+    "season": 2026,
+    "team": "SFG",
+    "games": 131,
+    "runs": 530,
+    "runsPerGame": 4.045802
+  },
+  {
+    "season": 2026,
+    "team": "STL",
+    "games": 132,
+    "runs": 585,
+    "runsPerGame": 4.431818
+  },
+  {
+    "season": 2026,
+    "team": "TBR",
+    "games": 130,
+    "runs": 587,
+    "runsPerGame": 4.515385
+  },
+  {
+    "season": 2026,
+    "team": "TEX",
+    "games": 131,
+    "runs": 521,
+    "runsPerGame": 3.977099
+  },
+  {
+    "season": 2026,
+    "team": "TOR",
+    "games": 132,
+    "runs": 521,
+    "runsPerGame": 3.94697
+  },
+  {
+    "season": 2026,
+    "team": "WSN",
+    "games": 132,
+    "runs": 682,
+    "runsPerGame": 5.166667
+  },
+  {
+    "season": 2025,
+    "team": "ARI",
+    "games": 163,
+    "runs": 794,
+    "runsPerGame": 4.871166
+  },
+  {
+    "season": 2025,
+    "team": "ATH",
+    "games": 162,
+    "runs": 733,
+    "runsPerGame": 4.524691
+  },
+  {
+    "season": 2025,
+    "team": "ATL",
+    "games": 163,
+    "runs": 728,
+    "runsPerGame": 4.466258
+  },
+  {
+    "season": 2025,
+    "team": "BAL",
+    "games": 162,
+    "runs": 677,
+    "runsPerGame": 4.179012
+  },
+  {
+    "season": 2025,
+    "team": "BOS",
+    "games": 163,
+    "runs": 791,
+    "runsPerGame": 4.852761
+  },
+  {
+    "season": 2025,
+    "team": "CHC",
+    "games": 162,
+    "runs": 793,
+    "runsPerGame": 4.895062
+  },
+  {
+    "season": 2025,
+    "team": "CHW",
+    "games": 162,
+    "runs": 647,
+    "runsPerGame": 3.993827
+  },
+  {
+    "season": 2025,
+    "team": "CIN",
+    "games": 165,
+    "runs": 725,
+    "runsPerGame": 4.393939
+  },
+  {
+    "season": 2025,
+    "team": "CLE",
+    "games": 163,
+    "runs": 648,
+    "runsPerGame": 3.97546
+  },
+  {
+    "season": 2025,
+    "team": "COL",
+    "games": 162,
+    "runs": 597,
+    "runsPerGame": 3.685185
+  },
+  {
+    "season": 2025,
+    "team": "DET",
+    "games": 162,
+    "runs": 758,
+    "runsPerGame": 4.679012
+  },
+  {
+    "season": 2025,
+    "team": "HOU",
+    "games": 162,
+    "runs": 686,
+    "runsPerGame": 4.234568
+  },
+  {
+    "season": 2025,
+    "team": "KCR",
+    "games": 162,
+    "runs": 651,
+    "runsPerGame": 4.018519
+  },
+  {
+    "season": 2025,
+    "team": "LAA",
+    "games": 162,
+    "runs": 673,
+    "runsPerGame": 4.154321
+  },
+  {
+    "season": 2025,
+    "team": "LAD",
+    "games": 162,
+    "runs": 825,
+    "runsPerGame": 5.092593
+  },
+  {
+    "season": 2025,
+    "team": "MIA",
+    "games": 162,
+    "runs": 709,
+    "runsPerGame": 4.376543
+  },
+  {
+    "season": 2025,
+    "team": "MIL",
+    "games": 162,
+    "runs": 806,
+    "runsPerGame": 4.975309
+  },
+  {
+    "season": 2025,
+    "team": "MIN",
+    "games": 163,
+    "runs": 684,
+    "runsPerGame": 4.196319
+  },
+  {
+    "season": 2025,
+    "team": "NYM",
+    "games": 162,
+    "runs": 766,
+    "runsPerGame": 4.728395
+  },
+  {
+    "season": 2025,
+    "team": "NYY",
+    "games": 162,
+    "runs": 849,
+    "runsPerGame": 5.240741
+  },
+  {
+    "season": 2025,
+    "team": "PHI",
+    "games": 162,
+    "runs": 778,
+    "runsPerGame": 4.802469
+  },
+  {
+    "season": 2025,
+    "team": "PIT",
+    "games": 162,
+    "runs": 583,
+    "runsPerGame": 3.598765
+  },
+  {
+    "season": 2025,
+    "team": "SDP",
+    "games": 162,
+    "runs": 702,
+    "runsPerGame": 4.333333
+  },
+  {
+    "season": 2025,
+    "team": "SEA",
+    "games": 162,
+    "runs": 766,
+    "runsPerGame": 4.728395
+  },
+  {
+    "season": 2025,
+    "team": "SFG",
+    "games": 162,
+    "runs": 705,
+    "runsPerGame": 4.351852
+  },
+  {
+    "season": 2025,
+    "team": "STL",
+    "games": 162,
+    "runs": 689,
+    "runsPerGame": 4.253086
+  },
+  {
+    "season": 2025,
+    "team": "TBR",
+    "games": 162,
+    "runs": 714,
+    "runsPerGame": 4.407407
+  },
+  {
+    "season": 2025,
+    "team": "TEX",
+    "games": 162,
+    "runs": 684,
+    "runsPerGame": 4.222222
+  },
+  {
+    "season": 2025,
+    "team": "TOR",
+    "games": 162,
+    "runs": 798,
+    "runsPerGame": 4.925926
+  },
+  {
+    "season": 2025,
+    "team": "WSN",
+    "games": 162,
+    "runs": 687,
+    "runsPerGame": 4.240741
+  },
+  {
+    "season": 2024,
+    "team": "ARI",
+    "games": 162,
+    "runs": 886,
+    "runsPerGame": 5.469136
+  },
+  {
+    "season": 2024,
+    "team": "ATL",
+    "games": 162,
+    "runs": 704,
+    "runsPerGame": 4.345679
+  },
+  {
+    "season": 2024,
+    "team": "BAL",
+    "games": 163,
+    "runs": 787,
+    "runsPerGame": 4.828221
+  },
+  {
+    "season": 2024,
+    "team": "BOS",
+    "games": 163,
+    "runs": 752,
+    "runsPerGame": 4.613497
+  },
+  {
+    "season": 2024,
+    "team": "CHC",
+    "games": 162,
+    "runs": 736,
+    "runsPerGame": 4.54321
+  },
+  {
+    "season": 2024,
+    "team": "CHW",
+    "games": 163,
+    "runs": 508,
+    "runsPerGame": 3.116564
+  },
+  {
+    "season": 2024,
+    "team": "CIN",
+    "games": 162,
+    "runs": 699,
+    "runsPerGame": 4.314815
+  },
+  {
+    "season": 2024,
+    "team": "CLE",
+    "games": 161,
+    "runs": 708,
+    "runsPerGame": 4.397516
+  },
+  {
+    "season": 2024,
+    "team": "COL",
+    "games": 162,
+    "runs": 682,
+    "runsPerGame": 4.209877
+  },
+  {
+    "season": 2024,
+    "team": "DET",
+    "games": 162,
+    "runs": 682,
+    "runsPerGame": 4.209877
+  },
+  {
+    "season": 2024,
+    "team": "HOU",
+    "games": 161,
+    "runs": 740,
+    "runsPerGame": 4.596273
+  },
+  {
+    "season": 2024,
+    "team": "KCR",
+    "games": 162,
+    "runs": 735,
+    "runsPerGame": 4.537037
+  },
+  {
+    "season": 2024,
+    "team": "LAA",
+    "games": 162,
+    "runs": 635,
+    "runsPerGame": 3.919753
+  },
+  {
+    "season": 2024,
+    "team": "LAD",
+    "games": 162,
+    "runs": 842,
+    "runsPerGame": 5.197531
+  },
+  {
+    "season": 2024,
+    "team": "MIA",
+    "games": 162,
+    "runs": 637,
+    "runsPerGame": 3.932099
+  },
+  {
+    "season": 2024,
+    "team": "MIL",
+    "games": 162,
+    "runs": 777,
+    "runsPerGame": 4.796296
+  },
+  {
+    "season": 2024,
+    "team": "MIN",
+    "games": 162,
+    "runs": 742,
+    "runsPerGame": 4.580247
+  },
+  {
+    "season": 2024,
+    "team": "NYM",
+    "games": 162,
+    "runs": 768,
+    "runsPerGame": 4.740741
+  },
+  {
+    "season": 2024,
+    "team": "NYY",
+    "games": 162,
+    "runs": 815,
+    "runsPerGame": 5.030864
+  },
+  {
+    "season": 2024,
+    "team": "OAK",
+    "games": 162,
+    "runs": 643,
+    "runsPerGame": 3.969136
+  },
+  {
+    "season": 2024,
+    "team": "PHI",
+    "games": 162,
+    "runs": 784,
+    "runsPerGame": 4.839506
+  },
+  {
+    "season": 2024,
+    "team": "PIT",
+    "games": 162,
+    "runs": 665,
+    "runsPerGame": 4.104938
+  },
+  {
+    "season": 2024,
+    "team": "SDP",
+    "games": 162,
+    "runs": 760,
+    "runsPerGame": 4.691358
+  },
+  {
+    "season": 2024,
+    "team": "SEA",
+    "games": 162,
+    "runs": 676,
+    "runsPerGame": 4.17284
+  },
+  {
+    "season": 2024,
+    "team": "SFG",
+    "games": 162,
+    "runs": 693,
+    "runsPerGame": 4.277778
+  },
+  {
+    "season": 2024,
+    "team": "STL",
+    "games": 163,
+    "runs": 675,
+    "runsPerGame": 4.141104
+  },
+  {
+    "season": 2024,
+    "team": "TBR",
+    "games": 162,
+    "runs": 604,
+    "runsPerGame": 3.728395
+  },
+  {
+    "season": 2024,
+    "team": "TEX",
+    "games": 163,
+    "runs": 686,
+    "runsPerGame": 4.208589
+  },
+  {
+    "season": 2024,
+    "team": "TOR",
+    "games": 163,
+    "runs": 675,
+    "runsPerGame": 4.141104
+  },
+  {
+    "season": 2024,
+    "team": "WSN",
+    "games": 162,
+    "runs": 660,
+    "runsPerGame": 4.074074
+  },
+  {
+    "season": 2023,
+    "team": "ARI",
+    "games": 162,
+    "runs": 746,
+    "runsPerGame": 4.604938
+  },
+  {
+    "season": 2023,
+    "team": "ATL",
+    "games": 162,
+    "runs": 947,
+    "runsPerGame": 5.845679
+  },
+  {
+    "season": 2023,
+    "team": "BAL",
+    "games": 162,
+    "runs": 807,
+    "runsPerGame": 4.981481
+  },
+  {
+    "season": 2023,
+    "team": "BOS",
+    "games": 163,
+    "runs": 776,
+    "runsPerGame": 4.760736
+  },
+  {
+    "season": 2023,
+    "team": "CHC",
+    "games": 162,
+    "runs": 819,
+    "runsPerGame": 5.055556
+  },
+  {
+    "season": 2023,
+    "team": "CHW",
+    "games": 162,
+    "runs": 641,
+    "runsPerGame": 3.95679
+  },
+  {
+    "season": 2023,
+    "team": "CIN",
+    "games": 163,
+    "runs": 785,
+    "runsPerGame": 4.815951
+  },
+  {
+    "season": 2023,
+    "team": "CLE",
+    "games": 163,
+    "runs": 663,
+    "runsPerGame": 4.067485
+  },
+  {
+    "season": 2023,
+    "team": "COL",
+    "games": 162,
+    "runs": 721,
+    "runsPerGame": 4.450617
+  },
+  {
+    "season": 2023,
+    "team": "DET",
+    "games": 163,
+    "runs": 669,
+    "runsPerGame": 4.104294
+  },
+  {
+    "season": 2023,
+    "team": "HOU",
+    "games": 162,
+    "runs": 827,
+    "runsPerGame": 5.104938
+  },
+  {
+    "season": 2023,
+    "team": "KCR",
+    "games": 163,
+    "runs": 676,
+    "runsPerGame": 4.147239
+  },
+  {
+    "season": 2023,
+    "team": "LAA",
+    "games": 162,
+    "runs": 739,
+    "runsPerGame": 4.561728
+  },
+  {
+    "season": 2023,
+    "team": "LAD",
+    "games": 163,
+    "runs": 912,
+    "runsPerGame": 5.595092
+  },
+  {
+    "season": 2023,
+    "team": "MIA",
+    "games": 163,
+    "runs": 666,
+    "runsPerGame": 4.08589
+  },
+  {
+    "season": 2023,
+    "team": "MIL",
+    "games": 162,
+    "runs": 728,
+    "runsPerGame": 4.493827
+  },
+  {
+    "season": 2023,
+    "team": "MIN",
+    "games": 162,
+    "runs": 778,
+    "runsPerGame": 4.802469
+  },
+  {
+    "season": 2023,
+    "team": "NYM",
+    "games": 165,
+    "runs": 725,
+    "runsPerGame": 4.393939
+  },
+  {
+    "season": 2023,
+    "team": "NYY",
+    "games": 162,
+    "runs": 673,
+    "runsPerGame": 4.154321
+  },
+  {
+    "season": 2023,
+    "team": "OAK",
+    "games": 162,
+    "runs": 585,
+    "runsPerGame": 3.611111
+  },
+  {
+    "season": 2023,
+    "team": "PHI",
+    "games": 162,
+    "runs": 796,
+    "runsPerGame": 4.91358
+  },
+  {
+    "season": 2023,
+    "team": "PIT",
+    "games": 162,
+    "runs": 692,
+    "runsPerGame": 4.271605
+  },
+  {
+    "season": 2023,
+    "team": "SDP",
+    "games": 162,
+    "runs": 752,
+    "runsPerGame": 4.641975
+  },
+  {
+    "season": 2023,
+    "team": "SEA",
+    "games": 162,
+    "runs": 758,
+    "runsPerGame": 4.679012
+  },
+  {
+    "season": 2023,
+    "team": "SFG",
+    "games": 163,
+    "runs": 678,
+    "runsPerGame": 4.159509
+  },
+  {
+    "season": 2023,
+    "team": "STL",
+    "games": 163,
+    "runs": 724,
+    "runsPerGame": 4.441718
+  },
+  {
+    "season": 2023,
+    "team": "TBR",
+    "games": 162,
+    "runs": 860,
+    "runsPerGame": 5.308642
+  },
+  {
+    "season": 2023,
+    "team": "TEX",
+    "games": 162,
+    "runs": 881,
+    "runsPerGame": 5.438272
+  },
+  {
+    "season": 2023,
+    "team": "TOR",
+    "games": 162,
+    "runs": 746,
+    "runsPerGame": 4.604938
+  },
+  {
+    "season": 2023,
+    "team": "WSN",
+    "games": 164,
+    "runs": 710,
+    "runsPerGame": 4.329268
+  }
+]

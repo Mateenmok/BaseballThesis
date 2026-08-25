@@ -1,0 +1,2774 @@
+[
+  {
+    "season": 2026,
+    "name": "Taylor Ward",
+    "team": "2 Tms",
+    "games": 72,
+    "plateAppearances": 331,
+    "fangraphsId": 17548,
+    "mlbId": 621493
+  },
+  {
+    "season": 2026,
+    "name": "Ketel Marte",
+    "team": "ARI",
+    "games": 88,
+    "plateAppearances": 396,
+    "fangraphsId": 13613,
+    "mlbId": 606466
+  },
+  {
+    "season": 2026,
+    "name": "Geraldo Perdomo",
+    "team": "ARI",
+    "games": 18,
+    "plateAppearances": 78,
+    "fangraphsId": 22799,
+    "mlbId": 672695
+  },
+  {
+    "season": 2026,
+    "name": "Corbin Carroll",
+    "team": "ARI",
+    "games": 11,
+    "plateAppearances": 54,
+    "fangraphsId": 25878,
+    "mlbId": 682998
+  },
+  {
+    "season": 2026,
+    "name": "Nick Kurtz",
+    "team": "ATH",
+    "games": 36,
+    "plateAppearances": 167,
+    "fangraphsId": 35110,
+    "mlbId": 701762
+  },
+  {
+    "season": 2026,
+    "name": "Jacob Wilson",
+    "team": "ATH",
+    "games": 23,
+    "plateAppearances": 105,
+    "fangraphsId": 33266,
+    "mlbId": 805779
+  },
+  {
+    "season": 2026,
+    "name": "Henry Bolte",
+    "team": "ATH",
+    "games": 22,
+    "plateAppearances": 97,
+    "fangraphsId": 31448,
+    "mlbId": 703607
+  },
+  {
+    "season": 2026,
+    "name": "Carlos Cortes",
+    "team": "ATH",
+    "games": 15,
+    "plateAppearances": 62,
+    "fangraphsId": 21842,
+    "mlbId": 666126
+  },
+  {
+    "season": 2026,
+    "name": "Ronald Acuña Jr.",
+    "team": "ATL",
+    "games": 62,
+    "plateAppearances": 276,
+    "fangraphsId": 18401,
+    "mlbId": 660670
+  },
+  {
+    "season": 2026,
+    "name": "Drake Baldwin",
+    "team": "ATL",
+    "games": 43,
+    "plateAppearances": 192,
+    "fangraphsId": 31539,
+    "mlbId": 686948
+  },
+  {
+    "season": 2026,
+    "name": "Mauricio Dubón",
+    "team": "ATL",
+    "games": 14,
+    "plateAppearances": 62,
+    "fangraphsId": 16530,
+    "mlbId": 643289
+  },
+  {
+    "season": 2026,
+    "name": "Michael Harris II",
+    "team": "ATL",
+    "games": 12,
+    "plateAppearances": 57,
+    "fangraphsId": 25931,
+    "mlbId": 671739
+  },
+  {
+    "season": 2026,
+    "name": "Gunnar Henderson",
+    "team": "BAL",
+    "games": 42,
+    "plateAppearances": 196,
+    "fangraphsId": 26289,
+    "mlbId": 683002
+  },
+  {
+    "season": 2026,
+    "name": "Jarren Duran",
+    "team": "BOS",
+    "games": 44,
+    "plateAppearances": 200,
+    "fangraphsId": 24617,
+    "mlbId": 680776
+  },
+  {
+    "season": 2026,
+    "name": "Roman Anthony",
+    "team": "BOS",
+    "games": 22,
+    "plateAppearances": 101,
+    "fangraphsId": 31812,
+    "mlbId": 701350
+  },
+  {
+    "season": 2026,
+    "name": "Anthony Seigler",
+    "team": "BOS",
+    "games": 23,
+    "plateAppearances": 95,
+    "fangraphsId": 23802,
+    "mlbId": 678011
+  },
+  {
+    "season": 2026,
+    "name": "Nick Sogard",
+    "team": "BOS",
+    "games": 16,
+    "plateAppearances": 81,
+    "fangraphsId": 25483,
+    "mlbId": 686765
+  },
+  {
+    "season": 2026,
+    "name": "Pete Crow-Armstrong",
+    "team": "CHC",
+    "games": 76,
+    "plateAppearances": 361,
+    "fangraphsId": 27769,
+    "mlbId": 691718
+  },
+  {
+    "season": 2026,
+    "name": "Nico Hoerner",
+    "team": "CHC",
+    "games": 48,
+    "plateAppearances": 223,
+    "fangraphsId": 21479,
+    "mlbId": 663538
+  },
+  {
+    "season": 2026,
+    "name": "Sam Antonacci",
+    "team": "CHW",
+    "games": 70,
+    "plateAppearances": 305,
+    "fangraphsId": 35101,
+    "mlbId": 803011
+  },
+  {
+    "season": 2026,
+    "name": "Chase Meidroth",
+    "team": "CHW",
+    "games": 36,
+    "plateAppearances": 165,
+    "fangraphsId": 31580,
+    "mlbId": 805367
+  },
+  {
+    "season": 2026,
+    "name": "Andrew Benintendi",
+    "team": "CHW",
+    "games": 12,
+    "plateAppearances": 54,
+    "fangraphsId": 17901,
+    "mlbId": 643217
+  },
+  {
+    "season": 2026,
+    "name": "Elly De La Cruz",
+    "team": "CIN",
+    "games": 51,
+    "plateAppearances": 232,
+    "fangraphsId": 26668,
+    "mlbId": 682829
+  },
+  {
+    "season": 2026,
+    "name": "TJ Friedl",
+    "team": "CIN",
+    "games": 35,
+    "plateAppearances": 155,
+    "fangraphsId": 19522,
+    "mlbId": 670770
+  },
+  {
+    "season": 2026,
+    "name": "Blake Dunn",
+    "team": "CIN",
+    "games": 23,
+    "plateAppearances": 109,
+    "fangraphsId": 29487,
+    "mlbId": 694362
+  },
+  {
+    "season": 2026,
+    "name": "Dane Myers",
+    "team": "CIN",
+    "games": 18,
+    "plateAppearances": 57,
+    "fangraphsId": 22054,
+    "mlbId": 667472
+  },
+  {
+    "season": 2026,
+    "name": "Steven Kwan",
+    "team": "CLE",
+    "games": 75,
+    "plateAppearances": 341,
+    "fangraphsId": 24610,
+    "mlbId": 680757
+  },
+  {
+    "season": 2026,
+    "name": "Travis Bazzana",
+    "team": "CLE",
+    "games": 40,
+    "plateAppearances": 176,
+    "fangraphsId": 34967,
+    "mlbId": 683953
+  },
+  {
+    "season": 2026,
+    "name": "Jake McCarthy",
+    "team": "COL",
+    "games": 70,
+    "plateAppearances": 318,
+    "fangraphsId": 21622,
+    "mlbId": 664983
+  },
+  {
+    "season": 2026,
+    "name": "Edouard Julien",
+    "team": "COL",
+    "games": 31,
+    "plateAppearances": 126,
+    "fangraphsId": 27534,
+    "mlbId": 666397
+  },
+  {
+    "season": 2026,
+    "name": "Willi Castro",
+    "team": "COL",
+    "games": 18,
+    "plateAppearances": 79,
+    "fangraphsId": 17338,
+    "mlbId": 650489
+  },
+  {
+    "season": 2026,
+    "name": "Kevin McGonigle",
+    "team": "DET",
+    "games": 71,
+    "plateAppearances": 324,
+    "fangraphsId": 33572,
+    "mlbId": 805808
+  },
+  {
+    "season": 2026,
+    "name": "Gleyber Torres",
+    "team": "DET",
+    "games": 22,
+    "plateAppearances": 104,
+    "fangraphsId": 16997,
+    "mlbId": 650402
+  },
+  {
+    "season": 2026,
+    "name": "Colt Keith",
+    "team": "DET",
+    "games": 16,
+    "plateAppearances": 59,
+    "fangraphsId": 27899,
+    "mlbId": 690993
+  },
+  {
+    "season": 2026,
+    "name": "Matt Vierling",
+    "team": "DET",
+    "games": 13,
+    "plateAppearances": 52,
+    "fangraphsId": 21558,
+    "mlbId": 663837
+  },
+  {
+    "season": 2026,
+    "name": "Jeremy Peña",
+    "team": "HOU",
+    "games": 76,
+    "plateAppearances": 337,
+    "fangraphsId": 21636,
+    "mlbId": 665161
+  },
+  {
+    "season": 2026,
+    "name": "Jose Altuve",
+    "team": "HOU",
+    "games": 33,
+    "plateAppearances": 149,
+    "fangraphsId": 5417,
+    "mlbId": 514888
+  },
+  {
+    "season": 2026,
+    "name": "Carlos Correa",
+    "team": "HOU",
+    "games": 14,
+    "plateAppearances": 63,
+    "fangraphsId": 14162,
+    "mlbId": 621043
+  },
+  {
+    "season": 2026,
+    "name": "Carter Jensen",
+    "team": "KCR",
+    "games": 55,
+    "plateAppearances": 249,
+    "fangraphsId": 29478,
+    "mlbId": 695600
+  },
+  {
+    "season": 2026,
+    "name": "Maikel Garcia",
+    "team": "KCR",
+    "games": 53,
+    "plateAppearances": 236,
+    "fangraphsId": 22715,
+    "mlbId": 672580
+  },
+  {
+    "season": 2026,
+    "name": "Lane Thomas",
+    "team": "KCR",
+    "games": 14,
+    "plateAppearances": 67,
+    "fangraphsId": 16939,
+    "mlbId": 657041
+  },
+  {
+    "season": 2026,
+    "name": "Zach Neto",
+    "team": "LAA",
+    "games": 113,
+    "plateAppearances": 510,
+    "fangraphsId": 31347,
+    "mlbId": 687263
+  },
+  {
+    "season": 2026,
+    "name": "Shohei Ohtani",
+    "team": "LAD",
+    "games": 120,
+    "plateAppearances": 553,
+    "fangraphsId": 19755,
+    "mlbId": 660271
+  },
+  {
+    "season": 2026,
+    "name": "Jakob Marsee",
+    "team": "MIA",
+    "games": 39,
+    "plateAppearances": 177,
+    "fangraphsId": 31370,
+    "mlbId": 805300
+  },
+  {
+    "season": 2026,
+    "name": "Xavier Edwards",
+    "team": "MIA",
+    "games": 32,
+    "plateAppearances": 138,
+    "fangraphsId": 22266,
+    "mlbId": 669364
+  },
+  {
+    "season": 2026,
+    "name": "Liam Hicks",
+    "team": "MIA",
+    "games": 25,
+    "plateAppearances": 117,
+    "fangraphsId": 29844,
+    "mlbId": 689414
+  },
+  {
+    "season": 2026,
+    "name": "Otto Lopez",
+    "team": "MIA",
+    "games": 20,
+    "plateAppearances": 93,
+    "fangraphsId": 19608,
+    "mlbId": 672640
+  },
+  {
+    "season": 2026,
+    "name": "Christian Yelich",
+    "team": "MIL",
+    "games": 44,
+    "plateAppearances": 211,
+    "fangraphsId": 11477,
+    "mlbId": 592885
+  },
+  {
+    "season": 2026,
+    "name": "Brice Turang",
+    "team": "MIL",
+    "games": 36,
+    "plateAppearances": 166,
+    "fangraphsId": 22186,
+    "mlbId": 668930
+  },
+  {
+    "season": 2026,
+    "name": "Jackson Chourio",
+    "team": "MIL",
+    "games": 32,
+    "plateAppearances": 148,
+    "fangraphsId": 28806,
+    "mlbId": 694192
+  },
+  {
+    "season": 2026,
+    "name": "Byron Buxton",
+    "team": "MIN",
+    "games": 48,
+    "plateAppearances": 220,
+    "fangraphsId": 14161,
+    "mlbId": 621439
+  },
+  {
+    "season": 2026,
+    "name": "Trevor Larnach",
+    "team": "MIN",
+    "games": 43,
+    "plateAppearances": 167,
+    "fangraphsId": 21501,
+    "mlbId": 663616
+  },
+  {
+    "season": 2026,
+    "name": "Austin Martin",
+    "team": "MIN",
+    "games": 37,
+    "plateAppearances": 136,
+    "fangraphsId": 27462,
+    "mlbId": 668885
+  },
+  {
+    "season": 2026,
+    "name": "Carson Benge",
+    "team": "NYM",
+    "games": 50,
+    "plateAppearances": 227,
+    "fangraphsId": 35177,
+    "mlbId": 701807
+  },
+  {
+    "season": 2026,
+    "name": "A.J. Ewing",
+    "team": "NYM",
+    "games": 37,
+    "plateAppearances": 170,
+    "fangraphsId": 33656,
+    "mlbId": 805999
+  },
+  {
+    "season": 2026,
+    "name": "Francisco Lindor",
+    "team": "NYM",
+    "games": 26,
+    "plateAppearances": 120,
+    "fangraphsId": 12916,
+    "mlbId": 596019
+  },
+  {
+    "season": 2026,
+    "name": "Trent Grisham",
+    "team": "NYY",
+    "games": 77,
+    "plateAppearances": 339,
+    "fangraphsId": 18564,
+    "mlbId": 663757
+  },
+  {
+    "season": 2026,
+    "name": "Paul Goldschmidt",
+    "team": "NYY",
+    "games": 30,
+    "plateAppearances": 126,
+    "fangraphsId": 9218,
+    "mlbId": 502671
+  },
+  {
+    "season": 2026,
+    "name": "Ben Rice",
+    "team": "NYY",
+    "games": 16,
+    "plateAppearances": 70,
+    "fangraphsId": 29576,
+    "mlbId": 700250
+  },
+  {
+    "season": 2026,
+    "name": "Trea Turner",
+    "team": "PHI",
+    "games": 90,
+    "plateAppearances": 403,
+    "fangraphsId": 16252,
+    "mlbId": 607208
+  },
+  {
+    "season": 2026,
+    "name": "Kyle Schwarber",
+    "team": "PHI",
+    "games": 39,
+    "plateAppearances": 181,
+    "fangraphsId": 16478,
+    "mlbId": 656941
+  },
+  {
+    "season": 2026,
+    "name": "Oneil Cruz",
+    "team": "PIT",
+    "games": 40,
+    "plateAppearances": 190,
+    "fangraphsId": 21711,
+    "mlbId": 665833
+  },
+  {
+    "season": 2026,
+    "name": "Jake Mangum",
+    "team": "PIT",
+    "games": 35,
+    "plateAppearances": 164,
+    "fangraphsId": 26202,
+    "mlbId": 663968
+  },
+  {
+    "season": 2026,
+    "name": "Spencer Horwitz",
+    "team": "PIT",
+    "games": 30,
+    "plateAppearances": 140,
+    "fangraphsId": 26477,
+    "mlbId": 687462
+  },
+  {
+    "season": 2026,
+    "name": "Nick Gonzales",
+    "team": "PIT",
+    "games": 13,
+    "plateAppearances": 56,
+    "fangraphsId": 27490,
+    "mlbId": 693304
+  },
+  {
+    "season": 2026,
+    "name": "Fernando Tatis Jr.",
+    "team": "SDP",
+    "games": 88,
+    "plateAppearances": 400,
+    "fangraphsId": 19709,
+    "mlbId": 665487
+  },
+  {
+    "season": 2026,
+    "name": "Ramón Laureano",
+    "team": "SDP",
+    "games": 23,
+    "plateAppearances": 106,
+    "fangraphsId": 17128,
+    "mlbId": 657656
+  },
+  {
+    "season": 2026,
+    "name": "J.P. Crawford",
+    "team": "SEA",
+    "games": 56,
+    "plateAppearances": 250,
+    "fangraphsId": 15491,
+    "mlbId": 641487
+  },
+  {
+    "season": 2026,
+    "name": "Brendan Donovan",
+    "team": "SEA",
+    "games": 25,
+    "plateAppearances": 113,
+    "fangraphsId": 24679,
+    "mlbId": 680977
+  },
+  {
+    "season": 2026,
+    "name": "Cole Young",
+    "team": "SEA",
+    "games": 23,
+    "plateAppearances": 106,
+    "fangraphsId": 31680,
+    "mlbId": 702284
+  },
+  {
+    "season": 2026,
+    "name": "Willy Adames",
+    "team": "SFG",
+    "games": 31,
+    "plateAppearances": 139,
+    "fangraphsId": 15986,
+    "mlbId": 642715
+  },
+  {
+    "season": 2026,
+    "name": "Luis Arraez",
+    "team": "SFG",
+    "games": 31,
+    "plateAppearances": 135,
+    "fangraphsId": 18568,
+    "mlbId": 650333
+  },
+  {
+    "season": 2026,
+    "name": "Jung Hoo Lee",
+    "team": "SFG",
+    "games": 19,
+    "plateAppearances": 85,
+    "fangraphsId": 33824,
+    "mlbId": 808982
+  },
+  {
+    "season": 2026,
+    "name": "Heliot Ramos",
+    "team": "SFG",
+    "games": 14,
+    "plateAppearances": 62,
+    "fangraphsId": 22515,
+    "mlbId": 671218
+  },
+  {
+    "season": 2026,
+    "name": "Casey Schmitt",
+    "team": "SFG",
+    "games": 11,
+    "plateAppearances": 56,
+    "fangraphsId": 27577,
+    "mlbId": 669477
+  },
+  {
+    "season": 2026,
+    "name": "JJ Wetherholt",
+    "team": "STL",
+    "games": 123,
+    "plateAppearances": 567,
+    "fangraphsId": 34985,
+    "mlbId": 802139
+  },
+  {
+    "season": 2026,
+    "name": "Yandy Díaz",
+    "team": "TBR",
+    "games": 91,
+    "plateAppearances": 416,
+    "fangraphsId": 16578,
+    "mlbId": 650490
+  },
+  {
+    "season": 2026,
+    "name": "Chandler Simpson",
+    "team": "TBR",
+    "games": 37,
+    "plateAppearances": 165,
+    "fangraphsId": 31912,
+    "mlbId": 802415
+  },
+  {
+    "season": 2026,
+    "name": "Joc Pederson",
+    "team": "TEX",
+    "games": 63,
+    "plateAppearances": 246,
+    "fangraphsId": 11899,
+    "mlbId": 592626
+  },
+  {
+    "season": 2026,
+    "name": "Brandon Nimmo",
+    "team": "TEX",
+    "games": 39,
+    "plateAppearances": 173,
+    "fangraphsId": 12927,
+    "mlbId": 607043
+  },
+  {
+    "season": 2026,
+    "name": "Wyatt Langford",
+    "team": "TEX",
+    "games": 18,
+    "plateAppearances": 80,
+    "fangraphsId": 33333,
+    "mlbId": 694671
+  },
+  {
+    "season": 2026,
+    "name": "George Springer",
+    "team": "TOR",
+    "games": 62,
+    "plateAppearances": 276,
+    "fangraphsId": 12856,
+    "mlbId": 543807
+  },
+  {
+    "season": 2026,
+    "name": "Nathan Lukes",
+    "team": "TOR",
+    "games": 26,
+    "plateAppearances": 105,
+    "fangraphsId": 18123,
+    "mlbId": 664770
+  },
+  {
+    "season": 2026,
+    "name": "Ernie Clement",
+    "team": "TOR",
+    "games": 18,
+    "plateAppearances": 83,
+    "fangraphsId": 20352,
+    "mlbId": 676391
+  },
+  {
+    "season": 2026,
+    "name": "James Wood",
+    "team": "WSN",
+    "games": 114,
+    "plateAppearances": 535,
+    "fangraphsId": 29518,
+    "mlbId": 695578
+  },
+  {
+    "season": 2025,
+    "name": "Mike Yastrzemski",
+    "team": "2 Tms",
+    "games": 79,
+    "plateAppearances": 336,
+    "fangraphsId": 14854,
+    "mlbId": 573262
+  },
+  {
+    "season": 2025,
+    "name": "Harrison Bader",
+    "team": "2 Tms",
+    "games": 19,
+    "plateAppearances": 83,
+    "fangraphsId": 18030,
+    "mlbId": 664056
+  },
+  {
+    "season": 2025,
+    "name": "Corbin Carroll",
+    "team": "ARI",
+    "games": 72,
+    "plateAppearances": 340,
+    "fangraphsId": 25878,
+    "mlbId": 682998
+  },
+  {
+    "season": 2025,
+    "name": "Geraldo Perdomo",
+    "team": "ARI",
+    "games": 49,
+    "plateAppearances": 226,
+    "fangraphsId": 22799,
+    "mlbId": 672695
+  },
+  {
+    "season": 2025,
+    "name": "Ketel Marte",
+    "team": "ARI",
+    "games": 40,
+    "plateAppearances": 186,
+    "fangraphsId": 13613,
+    "mlbId": 606466
+  },
+  {
+    "season": 2025,
+    "name": "Lawrence Butler",
+    "team": "ATH",
+    "games": 100,
+    "plateAppearances": 451,
+    "fangraphsId": 22542,
+    "mlbId": 671732
+  },
+  {
+    "season": 2025,
+    "name": "Jacob Wilson",
+    "team": "ATH",
+    "games": 20,
+    "plateAppearances": 90,
+    "fangraphsId": 33266,
+    "mlbId": 805779
+  },
+  {
+    "season": 2025,
+    "name": "Nick Kurtz",
+    "team": "ATH",
+    "games": 18,
+    "plateAppearances": 80,
+    "fangraphsId": 35110,
+    "mlbId": 701762
+  },
+  {
+    "season": 2025,
+    "name": "Shea Langeliers",
+    "team": "ATH",
+    "games": 15,
+    "plateAppearances": 74,
+    "fangraphsId": 25816,
+    "mlbId": 669127
+  },
+  {
+    "season": 2025,
+    "name": "Jurickson Profar",
+    "team": "ATL",
+    "games": 72,
+    "plateAppearances": 337,
+    "fangraphsId": 10815,
+    "mlbId": 595777
+  },
+  {
+    "season": 2025,
+    "name": "Ronald Acuña Jr.",
+    "team": "ATL",
+    "games": 43,
+    "plateAppearances": 189,
+    "fangraphsId": 18401,
+    "mlbId": 660670
+  },
+  {
+    "season": 2025,
+    "name": "Alex Verdugo",
+    "team": "ATL",
+    "games": 27,
+    "plateAppearances": 119,
+    "fangraphsId": 17027,
+    "mlbId": 657077
+  },
+  {
+    "season": 2025,
+    "name": "Jackson Holliday",
+    "team": "BAL",
+    "games": 113,
+    "plateAppearances": 521,
+    "fangraphsId": 31781,
+    "mlbId": 702616
+  },
+  {
+    "season": 2025,
+    "name": "Cedric Mullins",
+    "team": "BAL",
+    "games": 18,
+    "plateAppearances": 80,
+    "fangraphsId": 17929,
+    "mlbId": 656775
+  },
+  {
+    "season": 2025,
+    "name": "Jarren Duran",
+    "team": "BOS",
+    "games": 108,
+    "plateAppearances": 496,
+    "fangraphsId": 24617,
+    "mlbId": 680776
+  },
+  {
+    "season": 2025,
+    "name": "Roman Anthony",
+    "team": "BOS",
+    "games": 31,
+    "plateAppearances": 132,
+    "fangraphsId": 31812,
+    "mlbId": 701350
+  },
+  {
+    "season": 2025,
+    "name": "Ian Happ",
+    "team": "CHC",
+    "games": 84,
+    "plateAppearances": 394,
+    "fangraphsId": 17919,
+    "mlbId": 664023
+  },
+  {
+    "season": 2025,
+    "name": "Michael Busch",
+    "team": "CHC",
+    "games": 52,
+    "plateAppearances": 222,
+    "fangraphsId": 26319,
+    "mlbId": 683737
+  },
+  {
+    "season": 2025,
+    "name": "Nico Hoerner",
+    "team": "CHC",
+    "games": 17,
+    "plateAppearances": 75,
+    "fangraphsId": 21479,
+    "mlbId": 663538
+  },
+  {
+    "season": 2025,
+    "name": "Mike Tauchman",
+    "team": "CHW",
+    "games": 65,
+    "plateAppearances": 293,
+    "fangraphsId": 15274,
+    "mlbId": 643565
+  },
+  {
+    "season": 2025,
+    "name": "Chase Meidroth",
+    "team": "CHW",
+    "games": 61,
+    "plateAppearances": 272,
+    "fangraphsId": 31580,
+    "mlbId": 805367
+  },
+  {
+    "season": 2025,
+    "name": "TJ Friedl",
+    "team": "CIN",
+    "games": 150,
+    "plateAppearances": 683,
+    "fangraphsId": 19522,
+    "mlbId": 670770
+  },
+  {
+    "season": 2025,
+    "name": "Steven Kwan",
+    "team": "CLE",
+    "games": 156,
+    "plateAppearances": 693,
+    "fangraphsId": 24610,
+    "mlbId": 680757
+  },
+  {
+    "season": 2025,
+    "name": "Tyler Freeman",
+    "team": "COL",
+    "games": 74,
+    "plateAppearances": 320,
+    "fangraphsId": 22532,
+    "mlbId": 671289
+  },
+  {
+    "season": 2025,
+    "name": "Brenton Doyle",
+    "team": "COL",
+    "games": 34,
+    "plateAppearances": 143,
+    "fangraphsId": 25479,
+    "mlbId": 686668
+  },
+  {
+    "season": 2025,
+    "name": "Jordan Beck",
+    "team": "COL",
+    "games": 30,
+    "plateAppearances": 137,
+    "fangraphsId": 31431,
+    "mlbId": 687597
+  },
+  {
+    "season": 2025,
+    "name": "Colt Keith",
+    "team": "DET",
+    "games": 55,
+    "plateAppearances": 218,
+    "fangraphsId": 27899,
+    "mlbId": 690993
+  },
+  {
+    "season": 2025,
+    "name": "Kerry Carpenter",
+    "team": "DET",
+    "games": 41,
+    "plateAppearances": 143,
+    "fangraphsId": 25961,
+    "mlbId": 681481
+  },
+  {
+    "season": 2025,
+    "name": "Gleyber Torres",
+    "team": "DET",
+    "games": 23,
+    "plateAppearances": 94,
+    "fangraphsId": 16997,
+    "mlbId": 650402
+  },
+  {
+    "season": 2025,
+    "name": "Parker Meadows",
+    "team": "DET",
+    "games": 18,
+    "plateAppearances": 75,
+    "fangraphsId": 23800,
+    "mlbId": 678009
+  },
+  {
+    "season": 2025,
+    "name": "Justyn-Henry Malloy",
+    "team": "DET",
+    "games": 24,
+    "plateAppearances": 73,
+    "fangraphsId": 29606,
+    "mlbId": 669234
+  },
+  {
+    "season": 2025,
+    "name": "Jeremy Peña",
+    "team": "HOU",
+    "games": 96,
+    "plateAppearances": 434,
+    "fangraphsId": 21636,
+    "mlbId": 665161
+  },
+  {
+    "season": 2025,
+    "name": "Jose Altuve",
+    "team": "HOU",
+    "games": 35,
+    "plateAppearances": 148,
+    "fangraphsId": 5417,
+    "mlbId": 514888
+  },
+  {
+    "season": 2025,
+    "name": "Isaac Paredes",
+    "team": "HOU",
+    "games": 17,
+    "plateAppearances": 75,
+    "fangraphsId": 20036,
+    "mlbId": 670623
+  },
+  {
+    "season": 2025,
+    "name": "Jonathan India",
+    "team": "KCR",
+    "games": 104,
+    "plateAppearances": 453,
+    "fangraphsId": 21523,
+    "mlbId": 663697
+  },
+  {
+    "season": 2025,
+    "name": "Maikel Garcia",
+    "team": "KCR",
+    "games": 22,
+    "plateAppearances": 96,
+    "fangraphsId": 22715,
+    "mlbId": 672580
+  },
+  {
+    "season": 2025,
+    "name": "Zach Neto",
+    "team": "LAA",
+    "games": 110,
+    "plateAppearances": 493,
+    "fangraphsId": 31347,
+    "mlbId": 687263
+  },
+  {
+    "season": 2025,
+    "name": "Taylor Ward",
+    "team": "LAA",
+    "games": 22,
+    "plateAppearances": 97,
+    "fangraphsId": 17548,
+    "mlbId": 621493
+  },
+  {
+    "season": 2025,
+    "name": "Shohei Ohtani",
+    "team": "LAD",
+    "games": 148,
+    "plateAppearances": 680,
+    "fangraphsId": 19755,
+    "mlbId": 660271
+  },
+  {
+    "season": 2025,
+    "name": "Xavier Edwards",
+    "team": "MIA",
+    "games": 130,
+    "plateAppearances": 590,
+    "fangraphsId": 22266,
+    "mlbId": 669364
+  },
+  {
+    "season": 2025,
+    "name": "Brice Turang",
+    "team": "MIL",
+    "games": 67,
+    "plateAppearances": 309,
+    "fangraphsId": 22186,
+    "mlbId": 668930
+  },
+  {
+    "season": 2025,
+    "name": "Sal Frelick",
+    "team": "MIL",
+    "games": 57,
+    "plateAppearances": 265,
+    "fangraphsId": 29622,
+    "mlbId": 686217
+  },
+  {
+    "season": 2025,
+    "name": "Jackson Chourio",
+    "team": "MIL",
+    "games": 26,
+    "plateAppearances": 118,
+    "fangraphsId": 28806,
+    "mlbId": 694192
+  },
+  {
+    "season": 2025,
+    "name": "Byron Buxton",
+    "team": "MIN",
+    "games": 93,
+    "plateAppearances": 400,
+    "fangraphsId": 14161,
+    "mlbId": 621439
+  },
+  {
+    "season": 2025,
+    "name": "Trevor Larnach",
+    "team": "MIN",
+    "games": 19,
+    "plateAppearances": 78,
+    "fangraphsId": 21501,
+    "mlbId": 663616
+  },
+  {
+    "season": 2025,
+    "name": "Francisco Lindor",
+    "team": "NYM",
+    "games": 133,
+    "plateAppearances": 613,
+    "fangraphsId": 12916,
+    "mlbId": 596019
+  },
+  {
+    "season": 2025,
+    "name": "Brandon Nimmo",
+    "team": "NYM",
+    "games": 24,
+    "plateAppearances": 110,
+    "fangraphsId": 12927,
+    "mlbId": 607043
+  },
+  {
+    "season": 2025,
+    "name": "Trent Grisham",
+    "team": "NYY",
+    "games": 88,
+    "plateAppearances": 406,
+    "fangraphsId": 18564,
+    "mlbId": 663757
+  },
+  {
+    "season": 2025,
+    "name": "Paul Goldschmidt",
+    "team": "NYY",
+    "games": 42,
+    "plateAppearances": 190,
+    "fangraphsId": 9218,
+    "mlbId": 502671
+  },
+  {
+    "season": 2025,
+    "name": "Ben Rice",
+    "team": "NYY",
+    "games": 23,
+    "plateAppearances": 102,
+    "fangraphsId": 29576,
+    "mlbId": 700250
+  },
+  {
+    "season": 2025,
+    "name": "Trea Turner",
+    "team": "PHI",
+    "games": 95,
+    "plateAppearances": 441,
+    "fangraphsId": 16252,
+    "mlbId": 607208
+  },
+  {
+    "season": 2025,
+    "name": "Bryson Stott",
+    "team": "PHI",
+    "games": 38,
+    "plateAppearances": 176,
+    "fangraphsId": 26294,
+    "mlbId": 681082
+  },
+  {
+    "season": 2025,
+    "name": "Oneil Cruz",
+    "team": "PIT",
+    "games": 61,
+    "plateAppearances": 268,
+    "fangraphsId": 21711,
+    "mlbId": 665833
+  },
+  {
+    "season": 2025,
+    "name": "Spencer Horwitz",
+    "team": "PIT",
+    "games": 31,
+    "plateAppearances": 131,
+    "fangraphsId": 26477,
+    "mlbId": 687462
+  },
+  {
+    "season": 2025,
+    "name": "Jared Triolo",
+    "team": "PIT",
+    "games": 27,
+    "plateAppearances": 117,
+    "fangraphsId": 25807,
+    "mlbId": 669707
+  },
+  {
+    "season": 2025,
+    "name": "Fernando Tatis Jr.",
+    "team": "SDP",
+    "games": 150,
+    "plateAppearances": 670,
+    "fangraphsId": 19709,
+    "mlbId": 665487
+  },
+  {
+    "season": 2025,
+    "name": "J.P. Crawford",
+    "team": "SEA",
+    "games": 76,
+    "plateAppearances": 354,
+    "fangraphsId": 15491,
+    "mlbId": 641487
+  },
+  {
+    "season": 2025,
+    "name": "Randy Arozarena",
+    "team": "SEA",
+    "games": 53,
+    "plateAppearances": 245,
+    "fangraphsId": 19290,
+    "mlbId": 668227
+  },
+  {
+    "season": 2025,
+    "name": "Heliot Ramos",
+    "team": "SFG",
+    "games": 82,
+    "plateAppearances": 375,
+    "fangraphsId": 22515,
+    "mlbId": 671218
+  },
+  {
+    "season": 2025,
+    "name": "Jung Hoo Lee",
+    "team": "SFG",
+    "games": 19,
+    "plateAppearances": 91,
+    "fangraphsId": 33824,
+    "mlbId": 808982
+  },
+  {
+    "season": 2025,
+    "name": "Lars Nootbaar",
+    "team": "STL",
+    "games": 95,
+    "plateAppearances": 436,
+    "fangraphsId": 21454,
+    "mlbId": 663457
+  },
+  {
+    "season": 2025,
+    "name": "Brendan Donovan",
+    "team": "STL",
+    "games": 53,
+    "plateAppearances": 236,
+    "fangraphsId": 24679,
+    "mlbId": 680977
+  },
+  {
+    "season": 2025,
+    "name": "Chandler Simpson",
+    "team": "TBR",
+    "games": 68,
+    "plateAppearances": 300,
+    "fangraphsId": 31912,
+    "mlbId": 802415
+  },
+  {
+    "season": 2025,
+    "name": "Yandy Díaz",
+    "team": "TBR",
+    "games": 64,
+    "plateAppearances": 286,
+    "fangraphsId": 16578,
+    "mlbId": 650490
+  },
+  {
+    "season": 2025,
+    "name": "Josh Lowe",
+    "team": "TBR",
+    "games": 21,
+    "plateAppearances": 95,
+    "fangraphsId": 19953,
+    "mlbId": 666139
+  },
+  {
+    "season": 2025,
+    "name": "Josh Smith",
+    "team": "TEX",
+    "games": 89,
+    "plateAppearances": 398,
+    "fangraphsId": 26396,
+    "mlbId": 669701
+  },
+  {
+    "season": 2025,
+    "name": "Sam Haggerty",
+    "team": "TEX",
+    "games": 31,
+    "plateAppearances": 110,
+    "fangraphsId": 18054,
+    "mlbId": 664059
+  },
+  {
+    "season": 2025,
+    "name": "Marcus Semien",
+    "team": "TEX",
+    "games": 21,
+    "plateAppearances": 86,
+    "fangraphsId": 12533,
+    "mlbId": 543760
+  },
+  {
+    "season": 2025,
+    "name": "Bo Bichette",
+    "team": "TOR",
+    "games": 82,
+    "plateAppearances": 378,
+    "fangraphsId": 19612,
+    "mlbId": 666182
+  },
+  {
+    "season": 2025,
+    "name": "George Springer",
+    "team": "TOR",
+    "games": 39,
+    "plateAppearances": 178,
+    "fangraphsId": 12856,
+    "mlbId": 543807
+  },
+  {
+    "season": 2025,
+    "name": "Nathan Lukes",
+    "team": "TOR",
+    "games": 24,
+    "plateAppearances": 109,
+    "fangraphsId": 18123,
+    "mlbId": 664770
+  },
+  {
+    "season": 2025,
+    "name": "CJ Abrams",
+    "team": "WSN",
+    "games": 108,
+    "plateAppearances": 482,
+    "fangraphsId": 25768,
+    "mlbId": 682928
+  },
+  {
+    "season": 2025,
+    "name": "James Wood",
+    "team": "WSN",
+    "games": 40,
+    "plateAppearances": 178,
+    "fangraphsId": 29518,
+    "mlbId": 695578
+  },
+  {
+    "season": 2024,
+    "name": "Luis Arraez",
+    "team": "2 Tms",
+    "games": 146,
+    "plateAppearances": 668,
+    "fangraphsId": 18568,
+    "mlbId": 650333
+  },
+  {
+    "season": 2024,
+    "name": "Tommy Pham",
+    "team": "2 Tms",
+    "games": 75,
+    "plateAppearances": 332,
+    "fangraphsId": 2967,
+    "mlbId": 502054
+  },
+  {
+    "season": 2024,
+    "name": "Isiah Kiner-Falefa",
+    "team": "2 Tms",
+    "games": 44,
+    "plateAppearances": 197,
+    "fangraphsId": 16512,
+    "mlbId": 643396
+  },
+  {
+    "season": 2024,
+    "name": "Jorge Soler",
+    "team": "2 Tms",
+    "games": 41,
+    "plateAppearances": 184,
+    "fangraphsId": 14221,
+    "mlbId": 624585
+  },
+  {
+    "season": 2024,
+    "name": "Austin Slater",
+    "team": "2 Tms",
+    "games": 28,
+    "plateAppearances": 97,
+    "fangraphsId": 16153,
+    "mlbId": 596103
+  },
+  {
+    "season": 2024,
+    "name": "Corbin Carroll",
+    "team": "ARI",
+    "games": 85,
+    "plateAppearances": 402,
+    "fangraphsId": 25878,
+    "mlbId": 682998
+  },
+  {
+    "season": 2024,
+    "name": "Ketel Marte",
+    "team": "ARI",
+    "games": 58,
+    "plateAppearances": 271,
+    "fangraphsId": 13613,
+    "mlbId": 606466
+  },
+  {
+    "season": 2024,
+    "name": "Ronald Acuña Jr.",
+    "team": "ATL",
+    "games": 49,
+    "plateAppearances": 222,
+    "fangraphsId": 18401,
+    "mlbId": 660670
+  },
+  {
+    "season": 2024,
+    "name": "Michael Harris II",
+    "team": "ATL",
+    "games": 48,
+    "plateAppearances": 215,
+    "fangraphsId": 25931,
+    "mlbId": 671739
+  },
+  {
+    "season": 2024,
+    "name": "Jarred Kelenic",
+    "team": "ATL",
+    "games": 42,
+    "plateAppearances": 180,
+    "fangraphsId": 22558,
+    "mlbId": 672284
+  },
+  {
+    "season": 2024,
+    "name": "Gunnar Henderson",
+    "team": "BAL",
+    "games": 119,
+    "plateAppearances": 544,
+    "fangraphsId": 26289,
+    "mlbId": 683002
+  },
+  {
+    "season": 2024,
+    "name": "Colton Cowser",
+    "team": "BAL",
+    "games": 25,
+    "plateAppearances": 113,
+    "fangraphsId": 29591,
+    "mlbId": 681297
+  },
+  {
+    "season": 2024,
+    "name": "Jarren Duran",
+    "team": "BOS",
+    "games": 153,
+    "plateAppearances": 705,
+    "fangraphsId": 24617,
+    "mlbId": 680776
+  },
+  {
+    "season": 2024,
+    "name": "Ian Happ",
+    "team": "CHC",
+    "games": 66,
+    "plateAppearances": 306,
+    "fangraphsId": 17919,
+    "mlbId": 664023
+  },
+  {
+    "season": 2024,
+    "name": "Nico Hoerner",
+    "team": "CHC",
+    "games": 65,
+    "plateAppearances": 298,
+    "fangraphsId": 21479,
+    "mlbId": 663538
+  },
+  {
+    "season": 2024,
+    "name": "Mike Tauchman",
+    "team": "CHC",
+    "games": 28,
+    "plateAppearances": 116,
+    "fangraphsId": 15274,
+    "mlbId": 643565
+  },
+  {
+    "season": 2024,
+    "name": "Nicky Lopez",
+    "team": "CHW",
+    "games": 43,
+    "plateAppearances": 187,
+    "fangraphsId": 19339,
+    "mlbId": 670032
+  },
+  {
+    "season": 2024,
+    "name": "Corey Julks",
+    "team": "CHW",
+    "games": 18,
+    "plateAppearances": 73,
+    "fangraphsId": 20311,
+    "mlbId": 667452
+  },
+  {
+    "season": 2024,
+    "name": "Jonathan India",
+    "team": "CIN",
+    "games": 105,
+    "plateAppearances": 464,
+    "fangraphsId": 21523,
+    "mlbId": 663697
+  },
+  {
+    "season": 2024,
+    "name": "TJ Friedl",
+    "team": "CIN",
+    "games": 22,
+    "plateAppearances": 97,
+    "fangraphsId": 19522,
+    "mlbId": 670770
+  },
+  {
+    "season": 2024,
+    "name": "Will Benson",
+    "team": "CIN",
+    "games": 20,
+    "plateAppearances": 74,
+    "fangraphsId": 21853,
+    "mlbId": 666181
+  },
+  {
+    "season": 2024,
+    "name": "Steven Kwan",
+    "team": "CLE",
+    "games": 121,
+    "plateAppearances": 539,
+    "fangraphsId": 24610,
+    "mlbId": 680757
+  },
+  {
+    "season": 2024,
+    "name": "Tyler Freeman",
+    "team": "CLE",
+    "games": 20,
+    "plateAppearances": 85,
+    "fangraphsId": 22532,
+    "mlbId": 671289
+  },
+  {
+    "season": 2024,
+    "name": "Charlie Blackmon",
+    "team": "COL",
+    "games": 105,
+    "plateAppearances": 459,
+    "fangraphsId": 7859,
+    "mlbId": 453568
+  },
+  {
+    "season": 2024,
+    "name": "Ezequiel Tovar",
+    "team": "COL",
+    "games": 43,
+    "plateAppearances": 198,
+    "fangraphsId": 24064,
+    "mlbId": 678662
+  },
+  {
+    "season": 2024,
+    "name": "Matt Vierling",
+    "team": "DET",
+    "games": 50,
+    "plateAppearances": 221,
+    "fangraphsId": 21558,
+    "mlbId": 663837
+  },
+  {
+    "season": 2024,
+    "name": "Parker Meadows",
+    "team": "DET",
+    "games": 36,
+    "plateAppearances": 158,
+    "fangraphsId": 23800,
+    "mlbId": 678009
+  },
+  {
+    "season": 2024,
+    "name": "Riley Greene",
+    "team": "DET",
+    "games": 32,
+    "plateAppearances": 139,
+    "fangraphsId": 25976,
+    "mlbId": 682985
+  },
+  {
+    "season": 2024,
+    "name": "Wenceel Pérez",
+    "team": "DET",
+    "games": 27,
+    "plateAppearances": 119,
+    "fangraphsId": 22857,
+    "mlbId": 672761
+  },
+  {
+    "season": 2024,
+    "name": "Andy Ibáñez",
+    "team": "DET",
+    "games": 22,
+    "plateAppearances": 71,
+    "fangraphsId": 18819,
+    "mlbId": 628451
+  },
+  {
+    "season": 2024,
+    "name": "Jose Altuve",
+    "team": "HOU",
+    "games": 151,
+    "plateAppearances": 680,
+    "fangraphsId": 5417,
+    "mlbId": 514888
+  },
+  {
+    "season": 2024,
+    "name": "Maikel Garcia",
+    "team": "KCR",
+    "games": 107,
+    "plateAppearances": 467,
+    "fangraphsId": 22715,
+    "mlbId": 672580
+  },
+  {
+    "season": 2024,
+    "name": "Michael Massey",
+    "team": "KCR",
+    "games": 18,
+    "plateAppearances": 70,
+    "fangraphsId": 27684,
+    "mlbId": 686681
+  },
+  {
+    "season": 2024,
+    "name": "Nolan Schanuel",
+    "team": "LAA",
+    "games": 70,
+    "plateAppearances": 316,
+    "fangraphsId": 33189,
+    "mlbId": 694384
+  },
+  {
+    "season": 2024,
+    "name": "Taylor Ward",
+    "team": "LAA",
+    "games": 42,
+    "plateAppearances": 182,
+    "fangraphsId": 17548,
+    "mlbId": 621493
+  },
+  {
+    "season": 2024,
+    "name": "Anthony Rendon",
+    "team": "LAA",
+    "games": 32,
+    "plateAppearances": 142,
+    "fangraphsId": 12861,
+    "mlbId": 543685
+  },
+  {
+    "season": 2024,
+    "name": "Shohei Ohtani",
+    "team": "LAD",
+    "games": 90,
+    "plateAppearances": 419,
+    "fangraphsId": 19755,
+    "mlbId": 660271
+  },
+  {
+    "season": 2024,
+    "name": "Mookie Betts",
+    "team": "LAD",
+    "games": 72,
+    "plateAppearances": 331,
+    "fangraphsId": 13611,
+    "mlbId": 605141
+  },
+  {
+    "season": 2024,
+    "name": "Jazz Chisholm Jr.",
+    "team": "MIA",
+    "games": 60,
+    "plateAppearances": 265,
+    "fangraphsId": 20454,
+    "mlbId": 665862
+  },
+  {
+    "season": 2024,
+    "name": "Xavier Edwards",
+    "team": "MIA",
+    "games": 45,
+    "plateAppearances": 204,
+    "fangraphsId": 22266,
+    "mlbId": 669364
+  },
+  {
+    "season": 2024,
+    "name": "Brice Turang",
+    "team": "MIL",
+    "games": 87,
+    "plateAppearances": 388,
+    "fangraphsId": 22186,
+    "mlbId": 668930
+  },
+  {
+    "season": 2024,
+    "name": "Jackson Chourio",
+    "team": "MIL",
+    "games": 34,
+    "plateAppearances": 153,
+    "fangraphsId": 28806,
+    "mlbId": 694192
+  },
+  {
+    "season": 2024,
+    "name": "Sal Frelick",
+    "team": "MIL",
+    "games": 20,
+    "plateAppearances": 81,
+    "fangraphsId": 29622,
+    "mlbId": 686217
+  },
+  {
+    "season": 2024,
+    "name": "Willi Castro",
+    "team": "MIN",
+    "games": 50,
+    "plateAppearances": 227,
+    "fangraphsId": 17338,
+    "mlbId": 650489
+  },
+  {
+    "season": 2024,
+    "name": "Manuel Margot",
+    "team": "MIN",
+    "games": 42,
+    "plateAppearances": 149,
+    "fangraphsId": 14712,
+    "mlbId": 622534
+  },
+  {
+    "season": 2024,
+    "name": "Edouard Julien",
+    "team": "MIN",
+    "games": 38,
+    "plateAppearances": 148,
+    "fangraphsId": 27534,
+    "mlbId": 666397
+  },
+  {
+    "season": 2024,
+    "name": "Francisco Lindor",
+    "team": "NYM",
+    "games": 109,
+    "plateAppearances": 500,
+    "fangraphsId": 12916,
+    "mlbId": 596019
+  },
+  {
+    "season": 2024,
+    "name": "Brandon Nimmo",
+    "team": "NYM",
+    "games": 40,
+    "plateAppearances": 182,
+    "fangraphsId": 12927,
+    "mlbId": 607043
+  },
+  {
+    "season": 2024,
+    "name": "Anthony Volpe",
+    "team": "NYY",
+    "games": 77,
+    "plateAppearances": 354,
+    "fangraphsId": 27647,
+    "mlbId": 683011
+  },
+  {
+    "season": 2024,
+    "name": "Gleyber Torres",
+    "team": "NYY",
+    "games": 56,
+    "plateAppearances": 266,
+    "fangraphsId": 16997,
+    "mlbId": 650402
+  },
+  {
+    "season": 2024,
+    "name": "Alex Verdugo",
+    "team": "NYY",
+    "games": 17,
+    "plateAppearances": 85,
+    "fangraphsId": 17027,
+    "mlbId": 657077
+  },
+  {
+    "season": 2024,
+    "name": "Lawrence Butler",
+    "team": "OAK",
+    "games": 65,
+    "plateAppearances": 277,
+    "fangraphsId": 22542,
+    "mlbId": 671732
+  },
+  {
+    "season": 2024,
+    "name": "Abraham Toro",
+    "team": "OAK",
+    "games": 51,
+    "plateAppearances": 230,
+    "fangraphsId": 19844,
+    "mlbId": 647351
+  },
+  {
+    "season": 2024,
+    "name": "Kyle Schwarber",
+    "team": "PHI",
+    "games": 149,
+    "plateAppearances": 691,
+    "fangraphsId": 16478,
+    "mlbId": 656941
+  },
+  {
+    "season": 2024,
+    "name": "Andrew McCutchen",
+    "team": "PIT",
+    "games": 81,
+    "plateAppearances": 364,
+    "fangraphsId": 9847,
+    "mlbId": 457705
+  },
+  {
+    "season": 2024,
+    "name": "Xander Bogaerts",
+    "team": "SDP",
+    "games": 29,
+    "plateAppearances": 129,
+    "fangraphsId": 12161,
+    "mlbId": 593428
+  },
+  {
+    "season": 2024,
+    "name": "Jurickson Profar",
+    "team": "SDP",
+    "games": 19,
+    "plateAppearances": 83,
+    "fangraphsId": 10815,
+    "mlbId": 595777
+  },
+  {
+    "season": 2024,
+    "name": "J.P. Crawford",
+    "team": "SEA",
+    "games": 82,
+    "plateAppearances": 363,
+    "fangraphsId": 15491,
+    "mlbId": 641487
+  },
+  {
+    "season": 2024,
+    "name": "Victor Robles",
+    "team": "SEA",
+    "games": 40,
+    "plateAppearances": 177,
+    "fangraphsId": 18363,
+    "mlbId": 645302
+  },
+  {
+    "season": 2024,
+    "name": "Josh Rojas",
+    "team": "SEA",
+    "games": 22,
+    "plateAppearances": 95,
+    "fangraphsId": 19734,
+    "mlbId": 668942
+  },
+  {
+    "season": 2024,
+    "name": "Jung Hoo Lee",
+    "team": "SFG",
+    "games": 30,
+    "plateAppearances": 135,
+    "fangraphsId": 33824,
+    "mlbId": 808982
+  },
+  {
+    "season": 2024,
+    "name": "Mike Yastrzemski",
+    "team": "SFG",
+    "games": 29,
+    "plateAppearances": 105,
+    "fangraphsId": 14854,
+    "mlbId": 573262
+  },
+  {
+    "season": 2024,
+    "name": "Tyler Fitzgerald",
+    "team": "SFG",
+    "games": 23,
+    "plateAppearances": 98,
+    "fangraphsId": 26208,
+    "mlbId": 666149
+  },
+  {
+    "season": 2024,
+    "name": "Masyn Winn",
+    "team": "STL",
+    "games": 102,
+    "plateAppearances": 470,
+    "fangraphsId": 27479,
+    "mlbId": 691026
+  },
+  {
+    "season": 2024,
+    "name": "Brendan Donovan",
+    "team": "STL",
+    "games": 52,
+    "plateAppearances": 239,
+    "fangraphsId": 24679,
+    "mlbId": 680977
+  },
+  {
+    "season": 2024,
+    "name": "Yandy Díaz",
+    "team": "TBR",
+    "games": 130,
+    "plateAppearances": 574,
+    "fangraphsId": 16578,
+    "mlbId": 650490
+  },
+  {
+    "season": 2024,
+    "name": "Marcus Semien",
+    "team": "TEX",
+    "games": 147,
+    "plateAppearances": 667,
+    "fangraphsId": 12533,
+    "mlbId": 543760
+  },
+  {
+    "season": 2024,
+    "name": "George Springer",
+    "team": "TOR",
+    "games": 101,
+    "plateAppearances": 453,
+    "fangraphsId": 12856,
+    "mlbId": 543807
+  },
+  {
+    "season": 2024,
+    "name": "Davis Schneider",
+    "team": "TOR",
+    "games": 29,
+    "plateAppearances": 128,
+    "fangraphsId": 23565,
+    "mlbId": 676914
+  },
+  {
+    "season": 2024,
+    "name": "CJ Abrams",
+    "team": "WSN",
+    "games": 116,
+    "plateAppearances": 517,
+    "fangraphsId": 25768,
+    "mlbId": 682928
+  },
+  {
+    "season": 2024,
+    "name": "Dylan Crews",
+    "team": "WSN",
+    "games": 17,
+    "plateAppearances": 75,
+    "fangraphsId": 33541,
+    "mlbId": 686611
+  },
+  {
+    "season": 2023,
+    "name": "Jurickson Profar",
+    "team": "2 Tms",
+    "games": 69,
+    "plateAppearances": 316,
+    "fangraphsId": 10815,
+    "mlbId": 595777
+  },
+  {
+    "season": 2023,
+    "name": "Ketel Marte",
+    "team": "ARI",
+    "games": 46,
+    "plateAppearances": 204,
+    "fangraphsId": 13613,
+    "mlbId": 606466
+  },
+  {
+    "season": 2023,
+    "name": "Geraldo Perdomo",
+    "team": "ARI",
+    "games": 38,
+    "plateAppearances": 170,
+    "fangraphsId": 22799,
+    "mlbId": 672695
+  },
+  {
+    "season": 2023,
+    "name": "Corbin Carroll",
+    "team": "ARI",
+    "games": 32,
+    "plateAppearances": 142,
+    "fangraphsId": 25878,
+    "mlbId": 682998
+  },
+  {
+    "season": 2023,
+    "name": "Josh Rojas",
+    "team": "ARI",
+    "games": 28,
+    "plateAppearances": 121,
+    "fangraphsId": 19734,
+    "mlbId": 668942
+  },
+  {
+    "season": 2023,
+    "name": "Ronald Acuña Jr.",
+    "team": "ATL",
+    "games": 159,
+    "plateAppearances": 735,
+    "fangraphsId": 18401,
+    "mlbId": 660670
+  },
+  {
+    "season": 2023,
+    "name": "Cedric Mullins",
+    "team": "BAL",
+    "games": 47,
+    "plateAppearances": 213,
+    "fangraphsId": 17929,
+    "mlbId": 656775
+  },
+  {
+    "season": 2023,
+    "name": "Adley Rutschman",
+    "team": "BAL",
+    "games": 41,
+    "plateAppearances": 190,
+    "fangraphsId": 26288,
+    "mlbId": 668939
+  },
+  {
+    "season": 2023,
+    "name": "Gunnar Henderson",
+    "team": "BAL",
+    "games": 39,
+    "plateAppearances": 178,
+    "fangraphsId": 26289,
+    "mlbId": 683002
+  },
+  {
+    "season": 2023,
+    "name": "Austin Hays",
+    "team": "BAL",
+    "games": 25,
+    "plateAppearances": 116,
+    "fangraphsId": 19363,
+    "mlbId": 669720
+  },
+  {
+    "season": 2023,
+    "name": "Alex Verdugo",
+    "team": "BOS",
+    "games": 80,
+    "plateAppearances": 366,
+    "fangraphsId": 17027,
+    "mlbId": 657077
+  },
+  {
+    "season": 2023,
+    "name": "Jarren Duran",
+    "team": "BOS",
+    "games": 36,
+    "plateAppearances": 149,
+    "fangraphsId": 24617,
+    "mlbId": 680776
+  },
+  {
+    "season": 2023,
+    "name": "Rob Refsnyder",
+    "team": "BOS",
+    "games": 28,
+    "plateAppearances": 100,
+    "fangraphsId": 13770,
+    "mlbId": 608701
+  },
+  {
+    "season": 2023,
+    "name": "Ceddanne Rafaela",
+    "team": "BOS",
+    "games": 18,
+    "plateAppearances": 75,
+    "fangraphsId": 24262,
+    "mlbId": 678882
+  },
+  {
+    "season": 2023,
+    "name": "Nico Hoerner",
+    "team": "CHC",
+    "games": 74,
+    "plateAppearances": 345,
+    "fangraphsId": 21479,
+    "mlbId": 663538
+  },
+  {
+    "season": 2023,
+    "name": "Mike Tauchman",
+    "team": "CHC",
+    "games": 63,
+    "plateAppearances": 283,
+    "fangraphsId": 15274,
+    "mlbId": 643565
+  },
+  {
+    "season": 2023,
+    "name": "Christopher Morel",
+    "team": "CHC",
+    "games": 15,
+    "plateAppearances": 70,
+    "fangraphsId": 21897,
+    "mlbId": 666624
+  },
+  {
+    "season": 2023,
+    "name": "Tim Anderson",
+    "team": "CHW",
+    "games": 90,
+    "plateAppearances": 390,
+    "fangraphsId": 15172,
+    "mlbId": 641313
+  },
+  {
+    "season": 2023,
+    "name": "Andrew Benintendi",
+    "team": "CHW",
+    "games": 44,
+    "plateAppearances": 205,
+    "fangraphsId": 17901,
+    "mlbId": 643217
+  },
+  {
+    "season": 2023,
+    "name": "Jonathan India",
+    "team": "CIN",
+    "games": 62,
+    "plateAppearances": 281,
+    "fangraphsId": 21523,
+    "mlbId": 663697
+  },
+  {
+    "season": 2023,
+    "name": "TJ Friedl",
+    "team": "CIN",
+    "games": 41,
+    "plateAppearances": 191,
+    "fangraphsId": 19522,
+    "mlbId": 670770
+  },
+  {
+    "season": 2023,
+    "name": "Elly De La Cruz",
+    "team": "CIN",
+    "games": 22,
+    "plateAppearances": 96,
+    "fangraphsId": 26668,
+    "mlbId": 682829
+  },
+  {
+    "season": 2023,
+    "name": "Kevin Newman",
+    "team": "CIN",
+    "games": 19,
+    "plateAppearances": 78,
+    "fangraphsId": 17696,
+    "mlbId": 621028
+  },
+  {
+    "season": 2023,
+    "name": "Steven Kwan",
+    "team": "CLE",
+    "games": 154,
+    "plateAppearances": 715,
+    "fangraphsId": 24610,
+    "mlbId": 680757
+  },
+  {
+    "season": 2023,
+    "name": "Charlie Blackmon",
+    "team": "COL",
+    "games": 72,
+    "plateAppearances": 331,
+    "fangraphsId": 7859,
+    "mlbId": 453568
+  },
+  {
+    "season": 2023,
+    "name": "Zach McKinstry",
+    "team": "DET",
+    "games": 75,
+    "plateAppearances": 303,
+    "fangraphsId": 19392,
+    "mlbId": 656716
+  },
+  {
+    "season": 2023,
+    "name": "Matt Vierling",
+    "team": "DET",
+    "games": 45,
+    "plateAppearances": 198,
+    "fangraphsId": 21558,
+    "mlbId": 663837
+  },
+  {
+    "season": 2023,
+    "name": "Akil Baddoo",
+    "team": "DET",
+    "games": 28,
+    "plateAppearances": 117,
+    "fangraphsId": 22168,
+    "mlbId": 668731
+  },
+  {
+    "season": 2023,
+    "name": "Jose Altuve",
+    "team": "HOU",
+    "games": 80,
+    "plateAppearances": 367,
+    "fangraphsId": 5417,
+    "mlbId": 514888
+  },
+  {
+    "season": 2023,
+    "name": "Mauricio Dubón",
+    "team": "HOU",
+    "games": 69,
+    "plateAppearances": 293,
+    "fangraphsId": 16530,
+    "mlbId": 643289
+  },
+  {
+    "season": 2023,
+    "name": "Maikel Garcia",
+    "team": "KCR",
+    "games": 72,
+    "plateAppearances": 322,
+    "fangraphsId": 22715,
+    "mlbId": 672580
+  },
+  {
+    "season": 2023,
+    "name": "Bobby Witt Jr.",
+    "team": "KCR",
+    "games": 43,
+    "plateAppearances": 193,
+    "fangraphsId": 25764,
+    "mlbId": 677951
+  },
+  {
+    "season": 2023,
+    "name": "Nick Pratto",
+    "team": "KCR",
+    "games": 27,
+    "plateAppearances": 121,
+    "fangraphsId": 22117,
+    "mlbId": 668472
+  },
+  {
+    "season": 2023,
+    "name": "Taylor Ward",
+    "team": "LAA",
+    "games": 55,
+    "plateAppearances": 247,
+    "fangraphsId": 17548,
+    "mlbId": 621493
+  },
+  {
+    "season": 2023,
+    "name": "Nolan Schanuel",
+    "team": "LAA",
+    "games": 28,
+    "plateAppearances": 128,
+    "fangraphsId": 33189,
+    "mlbId": 694384
+  },
+  {
+    "season": 2023,
+    "name": "Luis Rengifo",
+    "team": "LAA",
+    "games": 26,
+    "plateAppearances": 114,
+    "fangraphsId": 19858,
+    "mlbId": 650859
+  },
+  {
+    "season": 2023,
+    "name": "Mickey Moniak",
+    "team": "LAA",
+    "games": 29,
+    "plateAppearances": 112,
+    "fangraphsId": 19956,
+    "mlbId": 666160
+  },
+  {
+    "season": 2023,
+    "name": "Zach Neto",
+    "team": "LAA",
+    "games": 17,
+    "plateAppearances": 79,
+    "fangraphsId": 31347,
+    "mlbId": 687263
+  },
+  {
+    "season": 2023,
+    "name": "Mookie Betts",
+    "team": "LAD",
+    "games": 151,
+    "plateAppearances": 691,
+    "fangraphsId": 13611,
+    "mlbId": 605141
+  },
+  {
+    "season": 2023,
+    "name": "Luis Arraez",
+    "team": "MIA",
+    "games": 84,
+    "plateAppearances": 368,
+    "fangraphsId": 18568,
+    "mlbId": 650333
+  },
+  {
+    "season": 2023,
+    "name": "Jazz Chisholm Jr.",
+    "team": "MIA",
+    "games": 30,
+    "plateAppearances": 129,
+    "fangraphsId": 20454,
+    "mlbId": 665862
+  },
+  {
+    "season": 2023,
+    "name": "Jon Berti",
+    "team": "MIA",
+    "games": 22,
+    "plateAppearances": 89,
+    "fangraphsId": 12037,
+    "mlbId": 542932
+  },
+  {
+    "season": 2023,
+    "name": "Jorge Soler",
+    "team": "MIA",
+    "games": 17,
+    "plateAppearances": 77,
+    "fangraphsId": 14221,
+    "mlbId": 624585
+  },
+  {
+    "season": 2023,
+    "name": "Christian Yelich",
+    "team": "MIL",
+    "games": 123,
+    "plateAppearances": 555,
+    "fangraphsId": 11477,
+    "mlbId": 592885
+  },
+  {
+    "season": 2023,
+    "name": "Edouard Julien",
+    "team": "MIN",
+    "games": 57,
+    "plateAppearances": 241,
+    "fangraphsId": 27534,
+    "mlbId": 666397
+  },
+  {
+    "season": 2023,
+    "name": "Carlos Correa",
+    "team": "MIN",
+    "games": 28,
+    "plateAppearances": 127,
+    "fangraphsId": 14162,
+    "mlbId": 621043
+  },
+  {
+    "season": 2023,
+    "name": "Donovan Solano",
+    "team": "MIN",
+    "games": 28,
+    "plateAppearances": 107,
+    "fangraphsId": 8623,
+    "mlbId": 456781
+  },
+  {
+    "season": 2023,
+    "name": "Max Kepler",
+    "team": "MIN",
+    "games": 18,
+    "plateAppearances": 79,
+    "fangraphsId": 12144,
+    "mlbId": 596146
+  },
+  {
+    "season": 2023,
+    "name": "Brandon Nimmo",
+    "team": "NYM",
+    "games": 150,
+    "plateAppearances": 680,
+    "fangraphsId": 12927,
+    "mlbId": 607043
+  },
+  {
+    "season": 2023,
+    "name": "DJ LeMahieu",
+    "team": "NYY",
+    "games": 58,
+    "plateAppearances": 260,
+    "fangraphsId": 9874,
+    "mlbId": 518934
+  },
+  {
+    "season": 2023,
+    "name": "Gleyber Torres",
+    "team": "NYY",
+    "games": 33,
+    "plateAppearances": 146,
+    "fangraphsId": 16997,
+    "mlbId": 650402
+  },
+  {
+    "season": 2023,
+    "name": "Anthony Volpe",
+    "team": "NYY",
+    "games": 29,
+    "plateAppearances": 123,
+    "fangraphsId": 27647,
+    "mlbId": 683011
+  },
+  {
+    "season": 2023,
+    "name": "Jake Bauers",
+    "team": "NYY",
+    "games": 26,
+    "plateAppearances": 101,
+    "fangraphsId": 15194,
+    "mlbId": 641343
+  },
+  {
+    "season": 2023,
+    "name": "Esteury Ruiz",
+    "team": "OAK",
+    "games": 81,
+    "plateAppearances": 365,
+    "fangraphsId": 21780,
+    "mlbId": 665923
+  },
+  {
+    "season": 2023,
+    "name": "Tony Kemp",
+    "team": "OAK",
+    "games": 47,
+    "plateAppearances": 204,
+    "fangraphsId": 14894,
+    "mlbId": 643393
+  },
+  {
+    "season": 2023,
+    "name": "Ryan Noda",
+    "team": "OAK",
+    "games": 22,
+    "plateAppearances": 97,
+    "fangraphsId": 23312,
+    "mlbId": 676116
+  },
+  {
+    "season": 2023,
+    "name": "Kyle Schwarber",
+    "team": "PHI",
+    "games": 108,
+    "plateAppearances": 502,
+    "fangraphsId": 16478,
+    "mlbId": 656941
+  },
+  {
+    "season": 2023,
+    "name": "Bryson Stott",
+    "team": "PHI",
+    "games": 39,
+    "plateAppearances": 186,
+    "fangraphsId": 26294,
+    "mlbId": 681082
+  },
+  {
+    "season": 2023,
+    "name": "Ke'Bryan Hayes",
+    "team": "PIT",
+    "games": 45,
+    "plateAppearances": 204,
+    "fangraphsId": 18577,
+    "mlbId": 663647
+  },
+  {
+    "season": 2023,
+    "name": "Jihwan Bae",
+    "team": "PIT",
+    "games": 27,
+    "plateAppearances": 113,
+    "fangraphsId": 23818,
+    "mlbId": 678225
+  },
+  {
+    "season": 2023,
+    "name": "Andrew McCutchen",
+    "team": "PIT",
+    "games": 22,
+    "plateAppearances": 101,
+    "fangraphsId": 9847,
+    "mlbId": 457705
+  },
+  {
+    "season": 2023,
+    "name": "Connor Joe",
+    "team": "PIT",
+    "games": 21,
+    "plateAppearances": 80,
+    "fangraphsId": 16572,
+    "mlbId": 656582
+  },
+  {
+    "season": 2023,
+    "name": "Ha-Seong Kim",
+    "team": "SDP",
+    "games": 73,
+    "plateAppearances": 335,
+    "fangraphsId": 27506,
+    "mlbId": 673490
+  },
+  {
+    "season": 2023,
+    "name": "Fernando Tatis Jr.",
+    "team": "SDP",
+    "games": 45,
+    "plateAppearances": 209,
+    "fangraphsId": 19709,
+    "mlbId": 665487
+  },
+  {
+    "season": 2023,
+    "name": "Xander Bogaerts",
+    "team": "SDP",
+    "games": 23,
+    "plateAppearances": 103,
+    "fangraphsId": 12161,
+    "mlbId": 593428
+  },
+  {
+    "season": 2023,
+    "name": "J.P. Crawford",
+    "team": "SEA",
+    "games": 113,
+    "plateAppearances": 519,
+    "fangraphsId": 15491,
+    "mlbId": 641487
+  },
+  {
+    "season": 2023,
+    "name": "Julio Rodríguez",
+    "team": "SEA",
+    "games": 45,
+    "plateAppearances": 213,
+    "fangraphsId": 23697,
+    "mlbId": 677594
+  },
+  {
+    "season": 2023,
+    "name": "LaMonte Wade Jr.",
+    "team": "SFG",
+    "games": 99,
+    "plateAppearances": 415,
+    "fangraphsId": 18126,
+    "mlbId": 664774
+  },
+  {
+    "season": 2023,
+    "name": "Austin Slater",
+    "team": "SFG",
+    "games": 43,
+    "plateAppearances": 134,
+    "fangraphsId": 16153,
+    "mlbId": 596103
+  },
+  {
+    "season": 2023,
+    "name": "Lars Nootbaar",
+    "team": "STL",
+    "games": 68,
+    "plateAppearances": 309,
+    "fangraphsId": 21454,
+    "mlbId": 663457
+  },
+  {
+    "season": 2023,
+    "name": "Brendan Donovan",
+    "team": "STL",
+    "games": 51,
+    "plateAppearances": 238,
+    "fangraphsId": 24679,
+    "mlbId": 680977
+  },
+  {
+    "season": 2023,
+    "name": "Tommy Edman",
+    "team": "STL",
+    "games": 42,
+    "plateAppearances": 192,
+    "fangraphsId": 19470,
+    "mlbId": 669242
+  },
+  {
+    "season": 2023,
+    "name": "Yandy Díaz",
+    "team": "TBR",
+    "games": 135,
+    "plateAppearances": 598,
+    "fangraphsId": 16578,
+    "mlbId": 650490
+  },
+  {
+    "season": 2023,
+    "name": "Marcus Semien",
+    "team": "TEX",
+    "games": 162,
+    "plateAppearances": 753,
+    "fangraphsId": 12533,
+    "mlbId": 543760
+  },
+  {
+    "season": 2023,
+    "name": "George Springer",
+    "team": "TOR",
+    "games": 123,
+    "plateAppearances": 568,
+    "fangraphsId": 12856,
+    "mlbId": 543807
+  },
+  {
+    "season": 2023,
+    "name": "Whit Merrifield",
+    "team": "TOR",
+    "games": 29,
+    "plateAppearances": 135,
+    "fangraphsId": 11281,
+    "mlbId": 593160
+  },
+  {
+    "season": 2023,
+    "name": "CJ Abrams",
+    "team": "WSN",
+    "games": 71,
+    "plateAppearances": 322,
+    "fangraphsId": 25768,
+    "mlbId": 682928
+  },
+  {
+    "season": 2023,
+    "name": "Lane Thomas",
+    "team": "WSN",
+    "games": 64,
+    "plateAppearances": 290,
+    "fangraphsId": 16939,
+    "mlbId": 657041
+  },
+  {
+    "season": 2023,
+    "name": "Alex Call",
+    "team": "WSN",
+    "games": 22,
+    "plateAppearances": 101,
+    "fangraphsId": 19296,
+    "mlbId": 669743
+  }
+]
