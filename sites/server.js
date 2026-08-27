@@ -1,25 +1,51 @@
-async function withOriginMetadata(request, response) {
-  const contentType = response.headers.get('content-type') ?? ''
-  if (!contentType.includes('text/html')) return response
+const EMBEDDED_ASSETS = "__EMBEDDED_ASSET_MANIFEST__"
 
-  const origin = new URL(request.url).origin
-  const body = (await response.text()).replaceAll('__SITE_ORIGIN__', origin)
-  const headers = new Headers(response.headers)
-  headers.delete('content-length')
-  return new Response(body, { status: response.status, headers })
+function decodeBase64(value) {
+  const binary = atob(value)
+  const bytes = new Uint8Array(binary.length)
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index)
+  }
+  return bytes
 }
 
-function withSpaFallback(request, assets) {
-  return assets.fetch(new Request(new URL('/index.html', request.url), request))
+function assetResponse(request, pathname) {
+  const asset = EMBEDDED_ASSETS[pathname]
+  if (!asset) return null
+
+  let body = asset.encoding === 'base64' ? decodeBase64(asset.body) : asset.body
+  if (pathname === '/index.html') {
+    body = body.replaceAll('__SITE_ORIGIN__', new URL(request.url).origin)
+  }
+
+  const headers = new Headers({
+    'Content-Type': asset.contentType,
+    'X-Content-Type-Options': 'nosniff',
+  })
+  if (pathname.startsWith('/assets/')) {
+    headers.set('Cache-Control', 'public, max-age=31536000, immutable')
+  } else if (pathname === '/index.html') {
+    headers.set('Cache-Control', 'no-cache')
+  } else {
+    headers.set('Cache-Control', 'public, max-age=3600')
+  }
+
+  return new Response(request.method === 'HEAD' ? null : body, { headers })
 }
 
 export default {
-  async fetch(request, env) {
-    const response = await env.ASSETS.fetch(request)
-    if (response.status !== 404 || request.method !== 'GET') {
-      return withOriginMetadata(request, response)
+  async fetch(request) {
+    if (request.method !== 'GET' && request.method !== 'HEAD') {
+      return new Response('Method Not Allowed', {
+        status: 405,
+        headers: { Allow: 'GET, HEAD' },
+      })
     }
-    const fallback = await withSpaFallback(request, env.ASSETS)
-    return withOriginMetadata(request, fallback)
+
+    const url = new URL(request.url)
+    const exact = assetResponse(request, url.pathname)
+    if (exact) return exact
+
+    return assetResponse(request, '/index.html') ?? new Response('Not Found', { status: 404 })
   },
 }
