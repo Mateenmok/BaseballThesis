@@ -11,6 +11,7 @@
     { "key": "OBP", "label": "OBP", "category": "standard", "format": "rate3", "direction": "higher" },
     { "key": "SLG", "label": "SLG", "category": "standard", "format": "rate3", "direction": "higher" },
     { "key": "OPS", "label": "OPS", "category": "standard", "format": "rate3", "direction": "higher" },
+    { "key": "BsR", "label": "BsR", "category": "standard", "format": "decimal1", "direction": "higher", "externalSource": "bsr" },
 
     { "key": "wOBA", "label": "wOBA", "category": "advanced", "format": "rate3", "direction": "higher" },
     { "key": "wRC+", "label": "wRC+", "category": "advanced", "format": "integer", "direction": "higher" },
@@ -30,9 +31,9 @@
     { "key": "Cent%", "label": "Center %", "category": "battedBall", "format": "percent", "direction": "descriptive" },
     { "key": "Oppo%", "label": "Oppo%", "category": "battedBall", "format": "percent", "direction": "descriptive" },
     { "key": "Hard%", "label": "Hard%", "category": "battedBall", "format": "percent", "direction": "higher" },
-    { "key": "Soft%", "label": "Soft%", "category": "battedBall", "format": "percent", "direction": "lower" },
 
     { "key": "EV", "label": "Avg EV", "category": "statcast", "format": "decimal1", "direction": "higher" },
+    { "key": "SprintSpeed", "label": "Sprint Speed (ft/s)", "category": "statcast", "format": "decimal1", "direction": "higher", "externalSource": "sprintSpeed" },
     { "key": "Barrel%", "label": "Barrel%", "category": "statcast", "format": "percent", "direction": "higher" },
     { "key": "HardHit%", "label": "Hard-Hit %", "category": "statcast", "format": "percent", "direction": "higher" },
     { "key": "xBA", "label": "xBA", "category": "statcast", "format": "rate3", "direction": "higher" },
@@ -47,6 +48,7 @@
     { "key": "BlastSw%", "label": "Blast / Swing", "category": "batTracking", "format": "percent", "direction": "higher" },
     { "key": "SwgLng", "label": "Swing Length", "category": "batTracking", "format": "decimal1", "direction": "descriptive" },
     { "key": "AtkAng", "label": "Attack Angle", "category": "batTracking", "format": "decimal1", "direction": "descriptive" },
-    { "key": "IdealAtkAng%", "label": "Ideal Attack Angle %", "category": "batTracking", "format": "percent", "direction": "higher" }
+    { "key": "IdealAtkAng%", "label": "Ideal Attack Angle %", "category": "batTracking", "format": "percent", "direction": "higher" },
+    { "key": "Swing%", "label": "Swing%", "category": "advanced", "format": "percent", "direction": "descriptive" }
   ]
 }

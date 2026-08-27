@@ -2,11 +2,21 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react
 import { MLB_TEAMS, SEASONS, type Season, type TeamName } from './data'
 import PlayerList from './PlayerList'
 import { PLAYER_SEASONS, type PlayerSeason } from './playerData'
-import { getPlayerProfileHref, readAppRoute } from './profileRouting'
+import {
+  getPlayerProfileHref,
+  getExperimentalMetricHref,
+  getExperimentalOverviewHref,
+  getLeadoffSwapHref,
+  getStatisticLeaderboardHref,
+  readAppRoute,
+} from './profileRouting'
 import TeamSelector from './TeamSelector'
 
 const LeagueLeaders = lazy(() => import('./LeagueLeaders'))
 const PlayerProfile = lazy(() => import('./PlayerProfile'))
+const StatisticalLeaderboard = lazy(() => import('./StatisticalLeaderboard'))
+const ExperimentalStatistics = lazy(() => import('./ExperimentalStatistics'))
+const LeadoffSwapAnalysis = lazy(() => import('./LeadoffSwapAnalysis'))
 
 function App() {
   const [route, setRoute] = useState(readAppRoute)
@@ -43,6 +53,29 @@ function App() {
     window.scrollTo(0, 0)
   }, [])
 
+  const openStatisticLeaderboard = useCallback((statKey: string, season: number) => {
+    const href = getStatisticLeaderboardHref(statKey, season)
+    window.history.pushState(null, '', href)
+    setRoute({ kind: 'stat-leaderboard', statKey, season })
+    window.scrollTo(0, 0)
+  }, [])
+
+  const openExperimentalStatistics = useCallback((season: number, metricId?: string) => {
+    const href = metricId
+      ? getExperimentalMetricHref(metricId, season)
+      : getExperimentalOverviewHref(season)
+    window.history.pushState(null, '', href)
+    setRoute({ kind: 'experimental', season, metricId })
+    window.scrollTo(0, 0)
+  }, [])
+
+  const openLeadoffSwapAnalysis = useCallback((season: number) => {
+    const href = getLeadoffSwapHref(season)
+    window.history.pushState(null, '', href)
+    setRoute({ kind: 'swaps', season })
+    window.scrollTo(0, 0)
+  }, [])
+
   if (route.kind === 'profile') {
     return (
       <Suspense fallback={<p className="profile-loading">Loading player profile…</p>}>
@@ -50,6 +83,48 @@ function App() {
           playerId={route.playerId}
           season={route.season}
           onNavigateHome={navigateHome}
+          onOpenStatistic={openStatisticLeaderboard}
+        />
+      </Suspense>
+    )
+  }
+
+  if (route.kind === 'stat-leaderboard') {
+    return (
+      <Suspense fallback={<p className="profile-loading">Loading statistical leaderboard…</p>}>
+        <StatisticalLeaderboard
+          statKey={route.statKey}
+          season={route.season}
+          onNavigateHome={navigateHome}
+          onOpenPlayer={openPlayerProfile}
+          onOpenStatistic={openStatisticLeaderboard}
+        />
+      </Suspense>
+    )
+  }
+
+  if (route.kind === 'experimental') {
+    return (
+      <Suspense fallback={<p className="analysis-loading">Loading experimental statistics…</p>}>
+        <ExperimentalStatistics
+          season={route.season}
+          metricId={route.metricId}
+          onNavigateHome={navigateHome}
+          onOpenMetric={openExperimentalStatistics}
+          onOpenPlayer={openPlayerProfile}
+        />
+      </Suspense>
+    )
+  }
+
+  if (route.kind === 'swaps') {
+    return (
+      <Suspense fallback={<p className="analysis-loading">Loading leadoff swap analysis…</p>}>
+        <LeadoffSwapAnalysis
+          season={route.season}
+          onNavigateHome={navigateHome}
+          onOpenSeason={openLeadoffSwapAnalysis}
+          onOpenPlayer={openPlayerProfile}
         />
       </Suspense>
     )
@@ -75,6 +150,18 @@ function App() {
           onClick={() => setAnalysisMode('league')}
         >
           League Leaders
+        </button>
+        <button
+          type="button"
+          onClick={() => openExperimentalStatistics(selectedSeason)}
+        >
+          Experimental Statistics
+        </button>
+        <button
+          type="button"
+          onClick={() => openLeadoffSwapAnalysis(selectedSeason)}
+        >
+          Leadoff Swap Analysis
         </button>
       </nav>
 

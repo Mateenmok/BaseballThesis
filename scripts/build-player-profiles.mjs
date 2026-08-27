@@ -7,6 +7,8 @@ import { midrankPercentile, performancePercentile } from './percentiles.mjs'
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const LEADOFF_PATH = path.join(ROOT_DIR, 'data/master/2023to2026Leadoff_Canonical.csv')
 const QUALIFIED_PATH = path.join(ROOT_DIR, 'data/master/2023to2026Qualified_Canonical.csv')
+const SPRINT_SPEED_DIR = path.join(ROOT_DIR, 'data/master/sprint-speed')
+const BSR_DIR = path.join(ROOT_DIR, 'data/master/bsr')
 const OUTPUT_PATH = path.join(ROOT_DIR, 'src/data/generated/player-profiles.json')
 const IDENTITY_HEADERS = ['Season', 'Name', 'Tm', 'playerId', 'MLBAMID']
 
@@ -89,7 +91,53 @@ const [leadoffSource, qualifiedSource] = await Promise.all([
 ])
 const leadoff = parseCsv(leadoffSource)
 const qualified = parseCsv(qualifiedSource)
-const statHeaders = profileConfig.stats.map(({ key }) => key)
+const sprintSpeedBySeasonAndPlayer = new Map()
+const sprintSpeedFiles = (await fs.readdir(SPRINT_SPEED_DIR))
+  .filter((fileName) => /^\d{4}\.csv$/.test(fileName))
+  .sort()
+
+for (const fileName of sprintSpeedFiles) {
+  const season = requiredInteger(path.basename(fileName, '.csv'), 'Sprint Speed season')
+  const sprintSpeed = parseCsv(await fs.readFile(path.join(SPRINT_SPEED_DIR, fileName), 'utf8'))
+  requireHeaders(`Sprint Speed ${season}`, sprintSpeed.headers, ['player_id', 'sprint_speed'])
+
+  for (const record of sprintSpeed.records) {
+    const playerId = requiredInteger(record.player_id, `Sprint Speed ${season} player_id`)
+    const value = nullableNumber(record.sprint_speed)
+    if (value === null) continue
+    const key = `${season}|${playerId}`
+    if (sprintSpeedBySeasonAndPlayer.has(key)) {
+      throw new Error(`Sprint Speed contains duplicate Season + player_id identity ${key}.`)
+    }
+    sprintSpeedBySeasonAndPlayer.set(key, value)
+  }
+}
+
+const bsrBySeasonAndPlayer = new Map()
+const bsrFiles = (await fs.readdir(BSR_DIR))
+  .filter((fileName) => /^\d{4}\.csv$/.test(fileName))
+  .sort()
+
+for (const fileName of bsrFiles) {
+  const season = requiredInteger(path.basename(fileName, '.csv'), 'BsR season')
+  const bsr = parseCsv(await fs.readFile(path.join(BSR_DIR, fileName), 'utf8'))
+  requireHeaders(`BsR ${season}`, bsr.headers, ['PlayerId', 'BsR'])
+
+  for (const record of bsr.records) {
+    const playerId = requiredInteger(record.PlayerId, `BsR ${season} PlayerId`)
+    const value = nullableNumber(record.BsR)
+    if (value === null) continue
+    const key = `${season}|${playerId}`
+    if (bsrBySeasonAndPlayer.has(key)) {
+      throw new Error(`BsR contains duplicate Season + PlayerId identity ${key}.`)
+    }
+    bsrBySeasonAndPlayer.set(key, value)
+  }
+}
+
+const statHeaders = profileConfig.stats
+  .filter(({ externalSource }) => !externalSource)
+  .map(({ key }) => key)
 const requiredHeaders = [...IDENTITY_HEADERS, ...statHeaders]
 
 requireHeaders('Leadoff canonical CSV', leadoff.headers, requiredHeaders)
@@ -97,11 +145,23 @@ requireHeaders('Qualified canonical CSV', qualified.headers, requiredHeaders)
 assertUniqueIdentities('Leadoff canonical CSV', leadoff.records)
 assertUniqueIdentities('Qualified canonical CSV', qualified.records)
 
+function statValue(record, season, stat) {
+  if (stat.externalSource === 'sprintSpeed') {
+    const mlbId = requiredInteger(record.MLBAMID, `${record.Name} MLBAMID`)
+    return sprintSpeedBySeasonAndPlayer.get(`${season}|${mlbId}`) ?? null
+  }
+  if (stat.externalSource === 'bsr') {
+    const playerId = requiredInteger(record.playerId, `${record.Name} playerId`)
+    return bsrBySeasonAndPlayer.get(`${season}|${playerId}`) ?? null
+  }
+  return nullableNumber(record[stat.key])
+}
+
 const referenceBySeasonAndStat = new Map()
 for (const record of qualified.records) {
   const season = requiredInteger(record.Season, 'Qualified Season')
   for (const stat of profileConfig.stats) {
-    const value = nullableNumber(record[stat.key])
+    const value = statValue(record, season, stat)
     if (value === null) continue
     const key = `${season}|${stat.key}`
     const values = referenceBySeasonAndStat.get(key) ?? []
@@ -117,7 +177,7 @@ const profiles = leadoff.records.map((record) => {
   const playerId = requiredInteger(record.playerId, 'Leadoff playerId')
   const mlbId = requiredInteger(record.MLBAMID, 'Leadoff MLBAMID')
   const stats = profileConfig.stats.map((stat) => {
-    const value = nullableNumber(record[stat.key])
+    const value = statValue(record, season, stat)
     const referenceValues = referenceBySeasonAndStat.get(`${season}|${stat.key}`) ?? []
     const rawPercentile = value === null ? null : midrankPercentile(value, referenceValues)
     return [
@@ -147,4 +207,8 @@ console.log(`Leadoff rows: ${leadoff.records.length}`)
 console.log(`Qualified rows: ${qualified.records.length}`)
 console.log(`Player profiles generated: ${profiles.length}`)
 console.log(`Statistics per profile: ${profileConfig.stats.length}`)
+console.log(`Sprint Speed files: ${sprintSpeedFiles.length}`)
+console.log(`Sprint Speed player-seasons: ${sprintSpeedBySeasonAndPlayer.size}`)
+console.log(`BsR files: ${bsrFiles.length}`)
+console.log(`BsR player-seasons: ${bsrBySeasonAndPlayer.size}`)
 console.log(`Generated: ${path.relative(ROOT_DIR, OUTPUT_PATH)}`)

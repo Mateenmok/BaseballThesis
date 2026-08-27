@@ -93,10 +93,10 @@
     "season": 2026,
     "team": "ATL",
     "mlbId": 686948,
-    "games": 44,
+    "games": 43,
     "wins": 24,
-    "losses": 20,
-    "averageTeamRuns": 4.159091
+    "losses": 19,
+    "averageTeamRuns": 4.209302
   },
   {
     "season": 2026,
@@ -633,10 +633,10 @@
     "season": 2026,
     "team": "SFG",
     "mlbId": 650333,
-    "games": 32,
-    "wins": 13,
+    "games": 31,
+    "wins": 12,
     "losses": 19,
-    "averageTeamRuns": 3.96875
+    "averageTeamRuns": 3.870968
   },
   {
     "season": 2026,
@@ -759,10 +759,10 @@
     "season": 2025,
     "team": "ARI",
     "mlbId": 606466,
-    "games": 41,
+    "games": 40,
     "wins": 19,
-    "losses": 22,
-    "averageTeamRuns": 4.707317
+    "losses": 21,
+    "averageTeamRuns": 4.75
   },
   {
     "season": 2025,
@@ -822,10 +822,10 @@
     "season": 2025,
     "team": "ATL",
     "mlbId": 595777,
-    "games": 73,
-    "wins": 35,
+    "games": 72,
+    "wins": 34,
     "losses": 38,
-    "averageTeamRuns": 4.767123
+    "averageTeamRuns": 4.777778
   },
   {
     "season": 2025,
@@ -867,10 +867,10 @@
     "season": 2025,
     "team": "BOS",
     "mlbId": 680776,
-    "games": 107,
-    "wins": 58,
+    "games": 106,
+    "wins": 57,
     "losses": 49,
-    "averageTeamRuns": 4.925234
+    "averageTeamRuns": 4.924528
   },
   {
     "season": 2025,
@@ -930,19 +930,19 @@
     "season": 2025,
     "team": "CIN",
     "mlbId": 670770,
-    "games": 153,
-    "wins": 79,
-    "losses": 74,
-    "averageTeamRuns": 4.385621
+    "games": 150,
+    "wins": 78,
+    "losses": 72,
+    "averageTeamRuns": 4.413333
   },
   {
     "season": 2025,
     "team": "CLE",
     "mlbId": 680757,
-    "games": 157,
+    "games": 156,
     "wins": 85,
-    "losses": 72,
-    "averageTeamRuns": 3.929936
+    "losses": 71,
+    "averageTeamRuns": 3.923077
   },
   {
     "season": 2025,
@@ -1452,19 +1452,19 @@
     "season": 2024,
     "team": "BAL",
     "mlbId": 683002,
-    "games": 120,
+    "games": 119,
     "wins": 69,
-    "losses": 51,
-    "averageTeamRuns": 4.858333
+    "losses": 50,
+    "averageTeamRuns": 4.890756
   },
   {
     "season": 2024,
     "team": "BOS",
     "mlbId": 680776,
-    "games": 154,
+    "games": 153,
     "wins": 77,
-    "losses": 77,
-    "averageTeamRuns": 4.62987
+    "losses": 76,
+    "averageTeamRuns": 4.653595
   },
   {
     "season": 2024,
@@ -1497,10 +1497,10 @@
     "season": 2024,
     "team": "CHW",
     "mlbId": 667452,
-    "games": 17,
+    "games": 16,
     "wins": 3,
-    "losses": 14,
-    "averageTeamRuns": 3.352941
+    "losses": 13,
+    "averageTeamRuns": 3.5
   },
   {
     "season": 2024,
@@ -1920,10 +1920,10 @@
     "season": 2024,
     "team": "STL",
     "mlbId": 680977,
-    "games": 53,
-    "wins": 25,
+    "games": 52,
+    "wins": 24,
     "losses": 28,
-    "averageTeamRuns": 3.735849
+    "averageTeamRuns": 3.75
   },
   {
     "season": 2024,
@@ -1947,10 +1947,10 @@
     "season": 2024,
     "team": "TEX",
     "mlbId": 543760,
-    "games": 148,
-    "wins": 73,
+    "games": 147,
+    "wins": 72,
     "losses": 75,
-    "averageTeamRuns": 4.189189
+    "averageTeamRuns": 4.197279
   },
   {
     "season": 2024,
@@ -2100,10 +2100,10 @@
     "season": 2023,
     "team": "BOS",
     "mlbId": 680776,
-    "games": 36,
+    "games": 35,
     "wins": 17,
-    "losses": 19,
-    "averageTeamRuns": 4.138889
+    "losses": 18,
+    "averageTeamRuns": 4.142857
   },
   {
     "season": 2023,
@@ -2181,19 +2181,19 @@
     "season": 2023,
     "team": "CIN",
     "mlbId": 682829,
-    "games": 22,
+    "games": 21,
     "wins": 9,
-    "losses": 13,
-    "averageTeamRuns": 4.5
+    "losses": 12,
+    "averageTeamRuns": 4.619048
   },
   {
     "season": 2023,
     "team": "CLE",
     "mlbId": 680757,
-    "games": 155,
+    "games": 154,
     "wins": 73,
-    "losses": 82,
-    "averageTeamRuns": 4.096774
+    "losses": 81,
+    "averageTeamRuns": 4.116883
   },
   {
     "season": 2023,
@@ -2262,10 +2262,10 @@
     "season": 2023,
     "team": "KCR",
     "mlbId": 672580,
-    "games": 73,
+    "games": 72,
     "wins": 31,
-    "losses": 42,
-    "averageTeamRuns": 4.671233
+    "losses": 41,
+    "averageTeamRuns": 4.736111
   },
   {
     "season": 2023,
@@ -2325,19 +2325,19 @@
     "season": 2023,
     "team": "LAD",
     "mlbId": 605141,
-    "games": 152,
-    "wins": 94,
+    "games": 151,
+    "wins": 93,
     "losses": 58,
-    "averageTeamRuns": 5.625
+    "averageTeamRuns": 5.622517
   },
   {
     "season": 2023,
     "team": "MIA",
     "mlbId": 542932,
-    "games": 20,
+    "games": 19,
     "wins": 9,
-    "losses": 11,
-    "averageTeamRuns": 3.55
+    "losses": 10,
+    "averageTeamRuns": 3.736842
   },
   {
     "season": 2023,
@@ -2415,10 +2415,10 @@
     "season": 2023,
     "team": "NYM",
     "mlbId": 607043,
-    "games": 153,
-    "wins": 74,
-    "losses": 79,
-    "averageTeamRuns": 4.477124
+    "games": 150,
+    "wins": 72,
+    "losses": 78,
+    "averageTeamRuns": 4.513333
   },
   {
     "season": 2023,
@@ -2586,10 +2586,10 @@
     "season": 2023,
     "team": "SFG",
     "mlbId": 596103,
-    "games": 36,
-    "wins": 23,
+    "games": 35,
+    "wins": 22,
     "losses": 13,
-    "averageTeamRuns": 3.722222
+    "averageTeamRuns": 3.714286
   },
   {
     "season": 2023,
@@ -2622,10 +2622,10 @@
     "season": 2023,
     "team": "STL",
     "mlbId": 680977,
-    "games": 51,
+    "games": 50,
     "wins": 22,
-    "losses": 29,
-    "averageTeamRuns": 4.509804
+    "losses": 28,
+    "averageTeamRuns": 4.5
   },
   {
     "season": 2023,
@@ -2667,10 +2667,10 @@
     "season": 2023,
     "team": "WSN",
     "mlbId": 657041,
-    "games": 65,
-    "wins": 27,
+    "games": 64,
+    "wins": 26,
     "losses": 38,
-    "averageTeamRuns": 4.292308
+    "averageTeamRuns": 4.3125
   },
   {
     "season": 2023,
@@ -2685,9 +2685,9 @@
     "season": 2023,
     "team": "WSN",
     "mlbId": 682928,
-    "games": 72,
-    "wins": 36,
+    "games": 71,
+    "wins": 35,
     "losses": 36,
-    "averageTeamRuns": 4.555556
+    "averageTeamRuns": 4.521127
   }
 ]

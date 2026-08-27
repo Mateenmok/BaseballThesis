@@ -1,25 +1,28 @@
-import { useEffect, useMemo, useState, type MouseEvent } from 'react'
+import { useEffect, type MouseEvent } from 'react'
+import { getTeamByAbbreviation } from './data'
 import PlayerHeadshot from './PlayerHeadshot'
-import ProfileStatRow from './ProfileStatRow'
+import ProfileStatSection from './ProfileStatSection'
+import { PLAYER_SEASONS } from './playerData'
 import { getPlayerProfile } from './playerProfileData'
 import {
-  PROFILE_CATEGORIES,
-  PROFILE_STAT_INDEX_BY_KEY,
-  getStatsForCategory,
-  type ProfileCategoryId,
-} from './profileStats'
+  BATTED_BALL_STAT_KEYS,
+  STANDARD_STAT_KEYS,
+  STATCAST_STAT_KEYS,
+} from './profileStatGroups'
+import TeamStatistics from './TeamStatistics'
 
 type PlayerProfileProps = {
   playerId: number
   season: number
   onNavigateHome: () => void
+  onOpenStatistic: (statKey: string, season: number) => void
 }
 
-function PlayerProfile({ playerId, season, onNavigateHome }: PlayerProfileProps) {
+function PlayerProfile({ playerId, season, onNavigateHome, onOpenStatistic }: PlayerProfileProps) {
   const profile = getPlayerProfile(playerId, season)
-  const [category, setCategory] = useState<ProfileCategoryId>('standard')
-  const selectedCategory = PROFILE_CATEGORIES.find(({ id }) => id === category) ?? PROFILE_CATEGORIES[0]
-  const selectedStats = useMemo(() => getStatsForCategory(category), [category])
+  const playerSeason = PLAYER_SEASONS.find((player) =>
+    player.season === season && player.fangraphsId === playerId)
+  const team = profile ? getTeamByAbbreviation(profile.team) : undefined
 
   useEffect(() => {
     document.title = profile ? `${profile.name} — ${profile.season} | Baseball Demo` : 'Player not found | Baseball Demo'
@@ -45,68 +48,65 @@ function PlayerProfile({ playerId, season, onNavigateHome }: PlayerProfileProps)
 
   return (
     <main className="profile-page">
-      <a className="profile-back-link" href="/" onClick={handleHomeLink}>
-        <span aria-hidden="true">←</span> Back to analysis
-      </a>
+      <div className="profile-dashboard">
+        <aside className="profile-sidebar" aria-labelledby="profile-title">
+          <a className="profile-back-link" href="/" onClick={handleHomeLink}>
+            <span aria-hidden="true">←</span> Back to home
+          </a>
 
-      <div className="profile-layout">
-        <section className="profile-identity" aria-labelledby="profile-title">
-          <p className="profile-eyebrow">Player profile</p>
-          <h1 id="profile-title">{profile.name} <span>— {profile.season}</span></h1>
-          <p className="profile-team">{profile.team}</p>
-
-          <PlayerHeadshot
-            className="player-profile__headshot"
-            name={profile.name}
-            mlbId={profile.mlbId}
-            loading="eager"
-          />
-
-          <nav className="profile-categories" aria-label="Statistic category">
-            {PROFILE_CATEGORIES.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                className={item.id === category ? 'is-selected' : ''}
-                style={{ '--category-color': item.color } as React.CSSProperties}
-                aria-pressed={item.id === category}
-                onClick={() => setCategory(item.id)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </nav>
-        </section>
-
-        <section className="profile-stat-panel" aria-labelledby="profile-stat-heading">
-          <header>
-            <p className="profile-eyebrow">Leadoff split</p>
-            <h2 id="profile-stat-heading">{selectedCategory.panelLabel}</h2>
-            <p>
-              Percentiles compare the player&apos;s leadoff split with qualified MLB hitters from the same season.
+          <section className="profile-identity">
+            <PlayerHeadshot
+              className="player-profile__headshot"
+              name={profile.name}
+              mlbId={profile.mlbId}
+              loading="eager"
+            />
+            <h1 id="profile-title">{profile.name}</h1>
+            <div className="profile-player-meta">
+              <span>{profile.season}</span>
+              <i aria-hidden="true" />
+              <span>{team?.name ?? profile.team}</span>
+              {team && <img src={team.logo} alt={`${team.name} logo`} />}
+            </div>
+            <p className="profile-playing-time">
+              <span>{playerSeason?.leadoffGames ?? playerSeason?.games ?? '—'} G</span>
+              <i aria-hidden="true" />
+              <span>{playerSeason?.plateAppearances ?? '—'} PA</span>
             </p>
+          </section>
+
+          <TeamStatistics player={playerSeason} />
+        </aside>
+
+        <div className="profile-analysis">
+          <header className="profile-analysis__intro">
+            <p className="profile-eyebrow">Leadoff split</p>
+            <p>Percentiles compare the player&apos;s leadoff split with qualified MLB hitters from the same season.</p>
           </header>
 
-          <div className="profile-stat-table" role="table" aria-label={`${selectedCategory.panelLabel} for ${profile.name}`}>
-            <div className="profile-stat-row profile-stat-row--header" role="row">
-              <span role="columnheader">Stat</span>
-              <span role="columnheader">MLB Percentile</span>
-              <span role="columnheader">Value</span>
-            </div>
-            {selectedStats.map((definition) => {
-              const statIndex = PROFILE_STAT_INDEX_BY_KEY.get(definition.key)
-              const stat = statIndex === undefined ? undefined : profile.stats[statIndex]
-              return (
-                <ProfileStatRow
-                  key={definition.key}
-                  definition={definition}
-                  season={profile.season}
-                  stat={stat}
-                />
-              )
-            })}
+          <ProfileStatSection
+            profile={profile}
+            statKeys={STANDARD_STAT_KEYS}
+            title="Standard"
+            columns={2}
+            onOpenStatistic={onOpenStatistic}
+          />
+
+          <div className="profile-analysis__secondary">
+            <ProfileStatSection
+              profile={profile}
+              statKeys={STATCAST_STAT_KEYS}
+              title="Statcast"
+              onOpenStatistic={onOpenStatistic}
+            />
+            <ProfileStatSection
+              profile={profile}
+              statKeys={BATTED_BALL_STAT_KEYS}
+              title="Batted Ball"
+              onOpenStatistic={onOpenStatistic}
+            />
           </div>
-        </section>
+        </div>
       </div>
     </main>
   )

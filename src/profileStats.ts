@@ -18,6 +18,12 @@ export type ProfileStatDefinition = {
   category: ProfileCategoryId
   format: ProfileStatFormat
   direction: ProfileStatDirection
+  externalSource?: 'sprintSpeed' | 'bsr'
+}
+
+export type StatAnalysisScale = {
+  increment: number
+  label: string
 }
 
 type ProfileConfig = {
@@ -29,12 +35,36 @@ const profileConfig = rawProfileConfig as ProfileConfig
 
 export const PROFILE_CATEGORIES = profileConfig.categories
 export const PROFILE_STAT_DEFINITIONS = profileConfig.stats
+export const PROFILE_STAT_BY_KEY = new Map(
+  PROFILE_STAT_DEFINITIONS.map((stat) => [stat.key, stat]),
+)
 export const PROFILE_STAT_INDEX_BY_KEY = new Map(
   PROFILE_STAT_DEFINITIONS.map((stat, index) => [stat.key, index]),
 )
 
 export function getStatsForCategory(category: ProfileCategoryId) {
   return PROFILE_STAT_DEFINITIONS.filter((stat) => stat.category === category)
+}
+
+const ANALYSIS_SCALE_BY_FORMAT: Record<ProfileStatFormat, StatAnalysisScale> = {
+  rate3: { increment: 0.01, label: '+.010' },
+  percent: { increment: 0.01, label: '+1 percentage point' },
+  integer: { increment: 1, label: '+1 point' },
+  decimal1: { increment: 1, label: '+1 unit' },
+  decimal2: { increment: 0.1, label: '+0.10' },
+}
+
+const ANALYSIS_SCALE_BY_STAT: Readonly<Record<string, StatAnalysisScale>> = {
+  EV: { increment: 1, label: '+1 mph' },
+  SprintSpeed: { increment: 1, label: '+1 ft/s' },
+  BatSpd: { increment: 1, label: '+1 mph' },
+  SwgLng: { increment: 1, label: '+1 ft' },
+  AtkAng: { increment: 1, label: '+1°' },
+  BsR: { increment: 1, label: '+1 BsR run' },
+}
+
+export function getStatAnalysisScale(definition: ProfileStatDefinition) {
+  return ANALYSIS_SCALE_BY_STAT[definition.key] ?? ANALYSIS_SCALE_BY_FORMAT[definition.format]
 }
 
 export function formatProfileStatValue(value: number | null, format: ProfileStatFormat) {

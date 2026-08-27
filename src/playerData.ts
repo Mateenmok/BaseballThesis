@@ -16,6 +16,9 @@ export type PlayerSeason = {
   teamRunsPerGame: number | null
   teamSeasonRunsPerGame: number | null
   runsPerGameDelta: number | null
+  teamWinPercentage: number | null
+  teamSeasonWinPercentage: number | null
+  winPercentageDelta: number | null
 }
 
 const metricByPlayer = new Map(
@@ -39,6 +42,9 @@ export const PLAYER_SEASONS: PlayerSeason[] = generatedPlayers.map((player) => {
   const baseline = baselineByTeamSeason.get(`${player.season}|${player.team}`)
   const teamRunsPerGame = metric?.averageTeamRuns ?? null
   const teamSeasonRunsPerGame = baseline?.runsPerGame ?? null
+  const teamDecisions = metric ? metric.wins + metric.losses : 0
+  const teamWinPercentage = metric && teamDecisions > 0 ? metric.wins / teamDecisions : null
+  const teamSeasonWinPercentage = baseline?.winPercentage ?? null
 
   return {
     ...player,
@@ -49,6 +55,11 @@ export const PLAYER_SEASONS: PlayerSeason[] = generatedPlayers.map((player) => {
     teamSeasonRunsPerGame,
     runsPerGameDelta: teamRunsPerGame !== null && teamSeasonRunsPerGame !== null
       ? teamRunsPerGame - teamSeasonRunsPerGame
+      : null,
+    teamWinPercentage,
+    teamSeasonWinPercentage,
+    winPercentageDelta: teamWinPercentage !== null && teamSeasonWinPercentage !== null
+      ? teamWinPercentage - teamSeasonWinPercentage
       : null,
   }
 })

@@ -16,6 +16,10 @@ const teamByAbbreviation = new Map(
     [team.abbreviation, ...(team.legacyAbbreviations ?? [])].map((code) => [code, team] as const)),
 )
 
+export function getTeamByAbbreviation(abbreviation: string) {
+  return teamByAbbreviation.get(abbreviation)
+}
+
 export function getTeamColor(abbreviation: string) {
   return teamByAbbreviation.get(abbreviation)?.primaryColor ?? '#222222'
 }

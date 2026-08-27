@@ -4,839 +4,1199 @@
     "team": "ARI",
     "games": 131,
     "runs": 598,
-    "runsPerGame": 4.564885
+    "runsPerGame": 4.564885,
+    "wins": 69,
+    "losses": 62,
+    "winPercentage": 0.526718
   },
   {
     "season": 2026,
     "team": "ATH",
     "games": 131,
     "runs": 568,
-    "runsPerGame": 4.335878
+    "runsPerGame": 4.335878,
+    "wins": 51,
+    "losses": 80,
+    "winPercentage": 0.389313
   },
   {
     "season": 2026,
     "team": "ATL",
-    "games": 132,
-    "runs": 616,
-    "runsPerGame": 4.666667
+    "games": 131,
+    "runs": 614,
+    "runsPerGame": 4.687023,
+    "wins": 76,
+    "losses": 55,
+    "winPercentage": 0.580153
   },
   {
     "season": 2026,
     "team": "BAL",
     "games": 131,
     "runs": 583,
-    "runsPerGame": 4.450382
+    "runsPerGame": 4.450382,
+    "wins": 63,
+    "losses": 68,
+    "winPercentage": 0.480916
   },
   {
     "season": 2026,
     "team": "BOS",
     "games": 130,
     "runs": 589,
-    "runsPerGame": 4.530769
+    "runsPerGame": 4.530769,
+    "wins": 71,
+    "losses": 59,
+    "winPercentage": 0.546154
   },
   {
     "season": 2026,
     "team": "CHC",
     "games": 131,
     "runs": 684,
-    "runsPerGame": 5.221374
+    "runsPerGame": 5.221374,
+    "wins": 75,
+    "losses": 56,
+    "winPercentage": 0.572519
   },
   {
     "season": 2026,
     "team": "CHW",
     "games": 130,
     "runs": 618,
-    "runsPerGame": 4.753846
+    "runsPerGame": 4.753846,
+    "wins": 68,
+    "losses": 62,
+    "winPercentage": 0.523077
   },
   {
     "season": 2026,
     "team": "CIN",
     "games": 131,
     "runs": 537,
-    "runsPerGame": 4.099237
+    "runsPerGame": 4.099237,
+    "wins": 62,
+    "losses": 69,
+    "winPercentage": 0.473282
   },
   {
     "season": 2026,
     "team": "CLE",
     "games": 131,
     "runs": 527,
-    "runsPerGame": 4.022901
+    "runsPerGame": 4.022901,
+    "wins": 65,
+    "losses": 66,
+    "winPercentage": 0.496183
   },
   {
     "season": 2026,
     "team": "COL",
     "games": 130,
     "runs": 617,
-    "runsPerGame": 4.746154
+    "runsPerGame": 4.746154,
+    "wins": 50,
+    "losses": 80,
+    "winPercentage": 0.384615
   },
   {
     "season": 2026,
     "team": "DET",
     "games": 130,
     "runs": 587,
-    "runsPerGame": 4.515385
+    "runsPerGame": 4.515385,
+    "wins": 61,
+    "losses": 69,
+    "winPercentage": 0.469231
   },
   {
     "season": 2026,
     "team": "HOU",
     "games": 131,
     "runs": 596,
-    "runsPerGame": 4.549618
+    "runsPerGame": 4.549618,
+    "wins": 65,
+    "losses": 66,
+    "winPercentage": 0.496183
   },
   {
     "season": 2026,
     "team": "KCR",
     "games": 132,
     "runs": 560,
-    "runsPerGame": 4.242424
+    "runsPerGame": 4.242424,
+    "wins": 58,
+    "losses": 74,
+    "winPercentage": 0.439394
   },
   {
     "season": 2026,
     "team": "LAA",
     "games": 131,
     "runs": 537,
-    "runsPerGame": 4.099237
+    "runsPerGame": 4.099237,
+    "wins": 52,
+    "losses": 79,
+    "winPercentage": 0.396947
   },
   {
     "season": 2026,
     "team": "LAD",
     "games": 131,
     "runs": 653,
-    "runsPerGame": 4.984733
+    "runsPerGame": 4.984733,
+    "wins": 80,
+    "losses": 51,
+    "winPercentage": 0.610687
   },
   {
     "season": 2026,
     "team": "MIA",
     "games": 131,
     "runs": 573,
-    "runsPerGame": 4.374046
+    "runsPerGame": 4.374046,
+    "wins": 67,
+    "losses": 64,
+    "winPercentage": 0.51145
   },
   {
     "season": 2026,
     "team": "MIL",
     "games": 131,
     "runs": 650,
-    "runsPerGame": 4.961832
+    "runsPerGame": 4.961832,
+    "wins": 81,
+    "losses": 50,
+    "winPercentage": 0.618321
   },
   {
     "season": 2026,
     "team": "MIN",
     "games": 131,
     "runs": 600,
-    "runsPerGame": 4.580153
+    "runsPerGame": 4.580153,
+    "wins": 63,
+    "losses": 68,
+    "winPercentage": 0.480916
   },
   {
     "season": 2026,
     "team": "NYM",
     "games": 131,
     "runs": 546,
-    "runsPerGame": 4.167939
+    "runsPerGame": 4.167939,
+    "wins": 59,
+    "losses": 72,
+    "winPercentage": 0.450382
   },
   {
     "season": 2026,
     "team": "NYY",
     "games": 130,
     "runs": 579,
-    "runsPerGame": 4.453846
+    "runsPerGame": 4.453846,
+    "wins": 74,
+    "losses": 56,
+    "winPercentage": 0.569231
   },
   {
     "season": 2026,
     "team": "PHI",
     "games": 131,
     "runs": 599,
-    "runsPerGame": 4.572519
+    "runsPerGame": 4.572519,
+    "wins": 73,
+    "losses": 58,
+    "winPercentage": 0.557252
   },
   {
     "season": 2026,
     "team": "PIT",
     "games": 132,
     "runs": 653,
-    "runsPerGame": 4.94697
+    "runsPerGame": 4.94697,
+    "wins": 63,
+    "losses": 69,
+    "winPercentage": 0.477273
   },
   {
     "season": 2026,
     "team": "SDP",
     "games": 131,
     "runs": 564,
-    "runsPerGame": 4.305344
+    "runsPerGame": 4.305344,
+    "wins": 71,
+    "losses": 60,
+    "winPercentage": 0.541985
   },
   {
     "season": 2026,
     "team": "SEA",
     "games": 131,
     "runs": 513,
-    "runsPerGame": 3.916031
+    "runsPerGame": 3.916031,
+    "wins": 62,
+    "losses": 69,
+    "winPercentage": 0.473282
   },
   {
     "season": 2026,
     "team": "SFG",
-    "games": 131,
-    "runs": 530,
-    "runsPerGame": 4.045802
+    "games": 130,
+    "runs": 523,
+    "runsPerGame": 4.023077,
+    "wins": 52,
+    "losses": 78,
+    "winPercentage": 0.4
   },
   {
     "season": 2026,
     "team": "STL",
     "games": 132,
     "runs": 585,
-    "runsPerGame": 4.431818
+    "runsPerGame": 4.431818,
+    "wins": 66,
+    "losses": 66,
+    "winPercentage": 0.5
   },
   {
     "season": 2026,
     "team": "TBR",
     "games": 130,
     "runs": 587,
-    "runsPerGame": 4.515385
+    "runsPerGame": 4.515385,
+    "wins": 77,
+    "losses": 53,
+    "winPercentage": 0.592308
   },
   {
     "season": 2026,
     "team": "TEX",
     "games": 131,
     "runs": 521,
-    "runsPerGame": 3.977099
+    "runsPerGame": 3.977099,
+    "wins": 65,
+    "losses": 66,
+    "winPercentage": 0.496183
   },
   {
     "season": 2026,
     "team": "TOR",
     "games": 132,
     "runs": 521,
-    "runsPerGame": 3.94697
+    "runsPerGame": 3.94697,
+    "wins": 64,
+    "losses": 68,
+    "winPercentage": 0.484848
   },
   {
     "season": 2026,
     "team": "WSN",
     "games": 132,
     "runs": 682,
-    "runsPerGame": 5.166667
+    "runsPerGame": 5.166667,
+    "wins": 61,
+    "losses": 71,
+    "winPercentage": 0.462121
   },
   {
     "season": 2025,
     "team": "ARI",
-    "games": 163,
-    "runs": 794,
-    "runsPerGame": 4.871166
+    "games": 162,
+    "runs": 791,
+    "runsPerGame": 4.882716,
+    "wins": 80,
+    "losses": 82,
+    "winPercentage": 0.493827
   },
   {
     "season": 2025,
     "team": "ATH",
     "games": 162,
     "runs": 733,
-    "runsPerGame": 4.524691
+    "runsPerGame": 4.524691,
+    "wins": 76,
+    "losses": 86,
+    "winPercentage": 0.469136
   },
   {
     "season": 2025,
     "team": "ATL",
-    "games": 163,
-    "runs": 728,
-    "runsPerGame": 4.466258
+    "games": 162,
+    "runs": 724,
+    "runsPerGame": 4.469136,
+    "wins": 76,
+    "losses": 86,
+    "winPercentage": 0.469136
   },
   {
     "season": 2025,
     "team": "BAL",
     "games": 162,
     "runs": 677,
-    "runsPerGame": 4.179012
+    "runsPerGame": 4.179012,
+    "wins": 75,
+    "losses": 87,
+    "winPercentage": 0.462963
   },
   {
     "season": 2025,
     "team": "BOS",
-    "games": 163,
-    "runs": 791,
-    "runsPerGame": 4.852761
+    "games": 162,
+    "runs": 786,
+    "runsPerGame": 4.851852,
+    "wins": 89,
+    "losses": 73,
+    "winPercentage": 0.549383
   },
   {
     "season": 2025,
     "team": "CHC",
     "games": 162,
     "runs": 793,
-    "runsPerGame": 4.895062
+    "runsPerGame": 4.895062,
+    "wins": 92,
+    "losses": 70,
+    "winPercentage": 0.567901
   },
   {
     "season": 2025,
     "team": "CHW",
     "games": 162,
     "runs": 647,
-    "runsPerGame": 3.993827
+    "runsPerGame": 3.993827,
+    "wins": 60,
+    "losses": 102,
+    "winPercentage": 0.37037
   },
   {
     "season": 2025,
     "team": "CIN",
-    "games": 165,
-    "runs": 725,
-    "runsPerGame": 4.393939
+    "games": 162,
+    "runs": 716,
+    "runsPerGame": 4.419753,
+    "wins": 83,
+    "losses": 79,
+    "winPercentage": 0.512346
   },
   {
     "season": 2025,
     "team": "CLE",
-    "games": 163,
-    "runs": 648,
-    "runsPerGame": 3.97546
+    "games": 162,
+    "runs": 643,
+    "runsPerGame": 3.969136,
+    "wins": 88,
+    "losses": 74,
+    "winPercentage": 0.54321
   },
   {
     "season": 2025,
     "team": "COL",
     "games": 162,
     "runs": 597,
-    "runsPerGame": 3.685185
+    "runsPerGame": 3.685185,
+    "wins": 43,
+    "losses": 119,
+    "winPercentage": 0.265432
   },
   {
     "season": 2025,
     "team": "DET",
     "games": 162,
     "runs": 758,
-    "runsPerGame": 4.679012
+    "runsPerGame": 4.679012,
+    "wins": 87,
+    "losses": 75,
+    "winPercentage": 0.537037
   },
   {
     "season": 2025,
     "team": "HOU",
     "games": 162,
     "runs": 686,
-    "runsPerGame": 4.234568
+    "runsPerGame": 4.234568,
+    "wins": 87,
+    "losses": 75,
+    "winPercentage": 0.537037
   },
   {
     "season": 2025,
     "team": "KCR",
     "games": 162,
     "runs": 651,
-    "runsPerGame": 4.018519
+    "runsPerGame": 4.018519,
+    "wins": 82,
+    "losses": 80,
+    "winPercentage": 0.506173
   },
   {
     "season": 2025,
     "team": "LAA",
     "games": 162,
     "runs": 673,
-    "runsPerGame": 4.154321
+    "runsPerGame": 4.154321,
+    "wins": 72,
+    "losses": 90,
+    "winPercentage": 0.444444
   },
   {
     "season": 2025,
     "team": "LAD",
     "games": 162,
     "runs": 825,
-    "runsPerGame": 5.092593
+    "runsPerGame": 5.092593,
+    "wins": 93,
+    "losses": 69,
+    "winPercentage": 0.574074
   },
   {
     "season": 2025,
     "team": "MIA",
     "games": 162,
     "runs": 709,
-    "runsPerGame": 4.376543
+    "runsPerGame": 4.376543,
+    "wins": 79,
+    "losses": 83,
+    "winPercentage": 0.487654
   },
   {
     "season": 2025,
     "team": "MIL",
     "games": 162,
     "runs": 806,
-    "runsPerGame": 4.975309
+    "runsPerGame": 4.975309,
+    "wins": 97,
+    "losses": 65,
+    "winPercentage": 0.598765
   },
   {
     "season": 2025,
     "team": "MIN",
-    "games": 163,
-    "runs": 684,
-    "runsPerGame": 4.196319
+    "games": 162,
+    "runs": 678,
+    "runsPerGame": 4.185185,
+    "wins": 70,
+    "losses": 92,
+    "winPercentage": 0.432099
   },
   {
     "season": 2025,
     "team": "NYM",
     "games": 162,
     "runs": 766,
-    "runsPerGame": 4.728395
+    "runsPerGame": 4.728395,
+    "wins": 83,
+    "losses": 79,
+    "winPercentage": 0.512346
   },
   {
     "season": 2025,
     "team": "NYY",
     "games": 162,
     "runs": 849,
-    "runsPerGame": 5.240741
+    "runsPerGame": 5.240741,
+    "wins": 94,
+    "losses": 68,
+    "winPercentage": 0.580247
   },
   {
     "season": 2025,
     "team": "PHI",
     "games": 162,
     "runs": 778,
-    "runsPerGame": 4.802469
+    "runsPerGame": 4.802469,
+    "wins": 96,
+    "losses": 66,
+    "winPercentage": 0.592593
   },
   {
     "season": 2025,
     "team": "PIT",
     "games": 162,
     "runs": 583,
-    "runsPerGame": 3.598765
+    "runsPerGame": 3.598765,
+    "wins": 71,
+    "losses": 91,
+    "winPercentage": 0.438272
   },
   {
     "season": 2025,
     "team": "SDP",
     "games": 162,
     "runs": 702,
-    "runsPerGame": 4.333333
+    "runsPerGame": 4.333333,
+    "wins": 90,
+    "losses": 72,
+    "winPercentage": 0.555556
   },
   {
     "season": 2025,
     "team": "SEA",
     "games": 162,
     "runs": 766,
-    "runsPerGame": 4.728395
+    "runsPerGame": 4.728395,
+    "wins": 90,
+    "losses": 72,
+    "winPercentage": 0.555556
   },
   {
     "season": 2025,
     "team": "SFG",
     "games": 162,
     "runs": 705,
-    "runsPerGame": 4.351852
+    "runsPerGame": 4.351852,
+    "wins": 81,
+    "losses": 81,
+    "winPercentage": 0.5
   },
   {
     "season": 2025,
     "team": "STL",
     "games": 162,
     "runs": 689,
-    "runsPerGame": 4.253086
+    "runsPerGame": 4.253086,
+    "wins": 78,
+    "losses": 84,
+    "winPercentage": 0.481481
   },
   {
     "season": 2025,
     "team": "TBR",
     "games": 162,
     "runs": 714,
-    "runsPerGame": 4.407407
+    "runsPerGame": 4.407407,
+    "wins": 77,
+    "losses": 85,
+    "winPercentage": 0.475309
   },
   {
     "season": 2025,
     "team": "TEX",
     "games": 162,
     "runs": 684,
-    "runsPerGame": 4.222222
+    "runsPerGame": 4.222222,
+    "wins": 81,
+    "losses": 81,
+    "winPercentage": 0.5
   },
   {
     "season": 2025,
     "team": "TOR",
     "games": 162,
     "runs": 798,
-    "runsPerGame": 4.925926
+    "runsPerGame": 4.925926,
+    "wins": 94,
+    "losses": 68,
+    "winPercentage": 0.580247
   },
   {
     "season": 2025,
     "team": "WSN",
     "games": 162,
     "runs": 687,
-    "runsPerGame": 4.240741
+    "runsPerGame": 4.240741,
+    "wins": 66,
+    "losses": 96,
+    "winPercentage": 0.407407
   },
   {
     "season": 2024,
     "team": "ARI",
     "games": 162,
     "runs": 886,
-    "runsPerGame": 5.469136
+    "runsPerGame": 5.469136,
+    "wins": 89,
+    "losses": 73,
+    "winPercentage": 0.549383
   },
   {
     "season": 2024,
     "team": "ATL",
     "games": 162,
     "runs": 704,
-    "runsPerGame": 4.345679
+    "runsPerGame": 4.345679,
+    "wins": 89,
+    "losses": 73,
+    "winPercentage": 0.549383
   },
   {
     "season": 2024,
     "team": "BAL",
-    "games": 163,
-    "runs": 787,
-    "runsPerGame": 4.828221
+    "games": 162,
+    "runs": 786,
+    "runsPerGame": 4.851852,
+    "wins": 91,
+    "losses": 71,
+    "winPercentage": 0.561728
   },
   {
     "season": 2024,
     "team": "BOS",
-    "games": 163,
-    "runs": 752,
-    "runsPerGame": 4.613497
+    "games": 162,
+    "runs": 751,
+    "runsPerGame": 4.635802,
+    "wins": 81,
+    "losses": 81,
+    "winPercentage": 0.5
   },
   {
     "season": 2024,
     "team": "CHC",
     "games": 162,
     "runs": 736,
-    "runsPerGame": 4.54321
+    "runsPerGame": 4.54321,
+    "wins": 83,
+    "losses": 79,
+    "winPercentage": 0.512346
   },
   {
     "season": 2024,
     "team": "CHW",
-    "games": 163,
-    "runs": 508,
-    "runsPerGame": 3.116564
+    "games": 162,
+    "runs": 507,
+    "runsPerGame": 3.12963,
+    "wins": 41,
+    "losses": 121,
+    "winPercentage": 0.253086
   },
   {
     "season": 2024,
     "team": "CIN",
     "games": 162,
     "runs": 699,
-    "runsPerGame": 4.314815
+    "runsPerGame": 4.314815,
+    "wins": 77,
+    "losses": 85,
+    "winPercentage": 0.475309
   },
   {
     "season": 2024,
     "team": "CLE",
     "games": 161,
     "runs": 708,
-    "runsPerGame": 4.397516
+    "runsPerGame": 4.397516,
+    "wins": 92,
+    "losses": 69,
+    "winPercentage": 0.571429
   },
   {
     "season": 2024,
     "team": "COL",
     "games": 162,
     "runs": 682,
-    "runsPerGame": 4.209877
+    "runsPerGame": 4.209877,
+    "wins": 61,
+    "losses": 101,
+    "winPercentage": 0.376543
   },
   {
     "season": 2024,
     "team": "DET",
     "games": 162,
     "runs": 682,
-    "runsPerGame": 4.209877
+    "runsPerGame": 4.209877,
+    "wins": 86,
+    "losses": 76,
+    "winPercentage": 0.530864
   },
   {
     "season": 2024,
     "team": "HOU",
     "games": 161,
     "runs": 740,
-    "runsPerGame": 4.596273
+    "runsPerGame": 4.596273,
+    "wins": 88,
+    "losses": 73,
+    "winPercentage": 0.546584
   },
   {
     "season": 2024,
     "team": "KCR",
     "games": 162,
     "runs": 735,
-    "runsPerGame": 4.537037
+    "runsPerGame": 4.537037,
+    "wins": 86,
+    "losses": 76,
+    "winPercentage": 0.530864
   },
   {
     "season": 2024,
     "team": "LAA",
     "games": 162,
     "runs": 635,
-    "runsPerGame": 3.919753
+    "runsPerGame": 3.919753,
+    "wins": 63,
+    "losses": 99,
+    "winPercentage": 0.388889
   },
   {
     "season": 2024,
     "team": "LAD",
     "games": 162,
     "runs": 842,
-    "runsPerGame": 5.197531
+    "runsPerGame": 5.197531,
+    "wins": 98,
+    "losses": 64,
+    "winPercentage": 0.604938
   },
   {
     "season": 2024,
     "team": "MIA",
     "games": 162,
     "runs": 637,
-    "runsPerGame": 3.932099
+    "runsPerGame": 3.932099,
+    "wins": 62,
+    "losses": 100,
+    "winPercentage": 0.382716
   },
   {
     "season": 2024,
     "team": "MIL",
     "games": 162,
     "runs": 777,
-    "runsPerGame": 4.796296
+    "runsPerGame": 4.796296,
+    "wins": 93,
+    "losses": 69,
+    "winPercentage": 0.574074
   },
   {
     "season": 2024,
     "team": "MIN",
     "games": 162,
     "runs": 742,
-    "runsPerGame": 4.580247
+    "runsPerGame": 4.580247,
+    "wins": 82,
+    "losses": 80,
+    "winPercentage": 0.506173
   },
   {
     "season": 2024,
     "team": "NYM",
     "games": 162,
     "runs": 768,
-    "runsPerGame": 4.740741
+    "runsPerGame": 4.740741,
+    "wins": 89,
+    "losses": 73,
+    "winPercentage": 0.549383
   },
   {
     "season": 2024,
     "team": "NYY",
     "games": 162,
     "runs": 815,
-    "runsPerGame": 5.030864
+    "runsPerGame": 5.030864,
+    "wins": 94,
+    "losses": 68,
+    "winPercentage": 0.580247
   },
   {
     "season": 2024,
     "team": "OAK",
     "games": 162,
     "runs": 643,
-    "runsPerGame": 3.969136
+    "runsPerGame": 3.969136,
+    "wins": 69,
+    "losses": 93,
+    "winPercentage": 0.425926
   },
   {
     "season": 2024,
     "team": "PHI",
     "games": 162,
     "runs": 784,
-    "runsPerGame": 4.839506
+    "runsPerGame": 4.839506,
+    "wins": 95,
+    "losses": 67,
+    "winPercentage": 0.58642
   },
   {
     "season": 2024,
     "team": "PIT",
     "games": 162,
     "runs": 665,
-    "runsPerGame": 4.104938
+    "runsPerGame": 4.104938,
+    "wins": 76,
+    "losses": 86,
+    "winPercentage": 0.469136
   },
   {
     "season": 2024,
     "team": "SDP",
     "games": 162,
     "runs": 760,
-    "runsPerGame": 4.691358
+    "runsPerGame": 4.691358,
+    "wins": 93,
+    "losses": 69,
+    "winPercentage": 0.574074
   },
   {
     "season": 2024,
     "team": "SEA",
     "games": 162,
     "runs": 676,
-    "runsPerGame": 4.17284
+    "runsPerGame": 4.17284,
+    "wins": 85,
+    "losses": 77,
+    "winPercentage": 0.524691
   },
   {
     "season": 2024,
     "team": "SFG",
     "games": 162,
     "runs": 693,
-    "runsPerGame": 4.277778
+    "runsPerGame": 4.277778,
+    "wins": 80,
+    "losses": 82,
+    "winPercentage": 0.493827
   },
   {
     "season": 2024,
     "team": "STL",
-    "games": 163,
-    "runs": 675,
-    "runsPerGame": 4.141104
+    "games": 162,
+    "runs": 672,
+    "runsPerGame": 4.148148,
+    "wins": 83,
+    "losses": 79,
+    "winPercentage": 0.512346
   },
   {
     "season": 2024,
     "team": "TBR",
     "games": 162,
     "runs": 604,
-    "runsPerGame": 3.728395
+    "runsPerGame": 3.728395,
+    "wins": 80,
+    "losses": 82,
+    "winPercentage": 0.493827
   },
   {
     "season": 2024,
     "team": "TEX",
-    "games": 163,
-    "runs": 686,
-    "runsPerGame": 4.208589
+    "games": 162,
+    "runs": 683,
+    "runsPerGame": 4.216049,
+    "wins": 78,
+    "losses": 84,
+    "winPercentage": 0.481481
   },
   {
     "season": 2024,
     "team": "TOR",
-    "games": 163,
-    "runs": 675,
-    "runsPerGame": 4.141104
+    "games": 162,
+    "runs": 671,
+    "runsPerGame": 4.141975,
+    "wins": 74,
+    "losses": 88,
+    "winPercentage": 0.45679
   },
   {
     "season": 2024,
     "team": "WSN",
     "games": 162,
     "runs": 660,
-    "runsPerGame": 4.074074
+    "runsPerGame": 4.074074,
+    "wins": 71,
+    "losses": 91,
+    "winPercentage": 0.438272
   },
   {
     "season": 2023,
     "team": "ARI",
     "games": 162,
     "runs": 746,
-    "runsPerGame": 4.604938
+    "runsPerGame": 4.604938,
+    "wins": 84,
+    "losses": 78,
+    "winPercentage": 0.518519
   },
   {
     "season": 2023,
     "team": "ATL",
     "games": 162,
     "runs": 947,
-    "runsPerGame": 5.845679
+    "runsPerGame": 5.845679,
+    "wins": 104,
+    "losses": 58,
+    "winPercentage": 0.641975
   },
   {
     "season": 2023,
     "team": "BAL",
     "games": 162,
     "runs": 807,
-    "runsPerGame": 4.981481
+    "runsPerGame": 4.981481,
+    "wins": 101,
+    "losses": 61,
+    "winPercentage": 0.623457
   },
   {
     "season": 2023,
     "team": "BOS",
-    "games": 163,
-    "runs": 776,
-    "runsPerGame": 4.760736
+    "games": 162,
+    "runs": 772,
+    "runsPerGame": 4.765432,
+    "wins": 78,
+    "losses": 84,
+    "winPercentage": 0.481481
   },
   {
     "season": 2023,
     "team": "CHC",
     "games": 162,
     "runs": 819,
-    "runsPerGame": 5.055556
+    "runsPerGame": 5.055556,
+    "wins": 83,
+    "losses": 79,
+    "winPercentage": 0.512346
   },
   {
     "season": 2023,
     "team": "CHW",
     "games": 162,
     "runs": 641,
-    "runsPerGame": 3.95679
+    "runsPerGame": 3.95679,
+    "wins": 61,
+    "losses": 101,
+    "winPercentage": 0.376543
   },
   {
     "season": 2023,
     "team": "CIN",
-    "games": 163,
-    "runs": 785,
-    "runsPerGame": 4.815951
+    "games": 162,
+    "runs": 783,
+    "runsPerGame": 4.833333,
+    "wins": 82,
+    "losses": 80,
+    "winPercentage": 0.506173
   },
   {
     "season": 2023,
     "team": "CLE",
-    "games": 163,
-    "runs": 663,
-    "runsPerGame": 4.067485
+    "games": 162,
+    "runs": 662,
+    "runsPerGame": 4.08642,
+    "wins": 76,
+    "losses": 86,
+    "winPercentage": 0.469136
   },
   {
     "season": 2023,
     "team": "COL",
     "games": 162,
     "runs": 721,
-    "runsPerGame": 4.450617
+    "runsPerGame": 4.450617,
+    "wins": 59,
+    "losses": 103,
+    "winPercentage": 0.364198
   },
   {
     "season": 2023,
     "team": "DET",
-    "games": 163,
-    "runs": 669,
-    "runsPerGame": 4.104294
+    "games": 162,
+    "runs": 661,
+    "runsPerGame": 4.080247,
+    "wins": 78,
+    "losses": 84,
+    "winPercentage": 0.481481
   },
   {
     "season": 2023,
     "team": "HOU",
     "games": 162,
     "runs": 827,
-    "runsPerGame": 5.104938
+    "runsPerGame": 5.104938,
+    "wins": 90,
+    "losses": 72,
+    "winPercentage": 0.555556
   },
   {
     "season": 2023,
     "team": "KCR",
-    "games": 163,
+    "games": 162,
     "runs": 676,
-    "runsPerGame": 4.147239
+    "runsPerGame": 4.17284,
+    "wins": 56,
+    "losses": 106,
+    "winPercentage": 0.345679
   },
   {
     "season": 2023,
     "team": "LAA",
     "games": 162,
     "runs": 739,
-    "runsPerGame": 4.561728
+    "runsPerGame": 4.561728,
+    "wins": 73,
+    "losses": 89,
+    "winPercentage": 0.450617
   },
   {
     "season": 2023,
     "team": "LAD",
-    "games": 163,
-    "runs": 912,
-    "runsPerGame": 5.595092
+    "games": 162,
+    "runs": 906,
+    "runsPerGame": 5.592593,
+    "wins": 100,
+    "losses": 62,
+    "winPercentage": 0.617284
   },
   {
     "season": 2023,
     "team": "MIA",
-    "games": 163,
+    "games": 162,
     "runs": 666,
-    "runsPerGame": 4.08589
+    "runsPerGame": 4.111111,
+    "wins": 84,
+    "losses": 78,
+    "winPercentage": 0.518519
   },
   {
     "season": 2023,
     "team": "MIL",
     "games": 162,
     "runs": 728,
-    "runsPerGame": 4.493827
+    "runsPerGame": 4.493827,
+    "wins": 92,
+    "losses": 70,
+    "winPercentage": 0.567901
   },
   {
     "season": 2023,
     "team": "MIN",
     "games": 162,
     "runs": 778,
-    "runsPerGame": 4.802469
+    "runsPerGame": 4.802469,
+    "wins": 87,
+    "losses": 75,
+    "winPercentage": 0.537037
   },
   {
     "season": 2023,
     "team": "NYM",
-    "games": 165,
-    "runs": 725,
-    "runsPerGame": 4.393939
+    "games": 162,
+    "runs": 717,
+    "runsPerGame": 4.425926,
+    "wins": 75,
+    "losses": 87,
+    "winPercentage": 0.462963
   },
   {
     "season": 2023,
     "team": "NYY",
     "games": 162,
     "runs": 673,
-    "runsPerGame": 4.154321
+    "runsPerGame": 4.154321,
+    "wins": 82,
+    "losses": 80,
+    "winPercentage": 0.506173
   },
   {
     "season": 2023,
     "team": "OAK",
     "games": 162,
     "runs": 585,
-    "runsPerGame": 3.611111
+    "runsPerGame": 3.611111,
+    "wins": 50,
+    "losses": 112,
+    "winPercentage": 0.308642
   },
   {
     "season": 2023,
     "team": "PHI",
     "games": 162,
     "runs": 796,
-    "runsPerGame": 4.91358
+    "runsPerGame": 4.91358,
+    "wins": 90,
+    "losses": 72,
+    "winPercentage": 0.555556
   },
   {
     "season": 2023,
     "team": "PIT",
     "games": 162,
     "runs": 692,
-    "runsPerGame": 4.271605
+    "runsPerGame": 4.271605,
+    "wins": 76,
+    "losses": 86,
+    "winPercentage": 0.469136
   },
   {
     "season": 2023,
     "team": "SDP",
     "games": 162,
     "runs": 752,
-    "runsPerGame": 4.641975
+    "runsPerGame": 4.641975,
+    "wins": 82,
+    "losses": 80,
+    "winPercentage": 0.506173
   },
   {
     "season": 2023,
     "team": "SEA",
     "games": 162,
     "runs": 758,
-    "runsPerGame": 4.679012
+    "runsPerGame": 4.679012,
+    "wins": 88,
+    "losses": 74,
+    "winPercentage": 0.54321
   },
   {
     "season": 2023,
     "team": "SFG",
-    "games": 163,
-    "runs": 678,
-    "runsPerGame": 4.159509
+    "games": 162,
+    "runs": 674,
+    "runsPerGame": 4.160494,
+    "wins": 79,
+    "losses": 83,
+    "winPercentage": 0.487654
   },
   {
     "season": 2023,
     "team": "STL",
-    "games": 163,
-    "runs": 724,
-    "runsPerGame": 4.441718
+    "games": 162,
+    "runs": 719,
+    "runsPerGame": 4.438272,
+    "wins": 71,
+    "losses": 91,
+    "winPercentage": 0.438272
   },
   {
     "season": 2023,
     "team": "TBR",
     "games": 162,
     "runs": 860,
-    "runsPerGame": 5.308642
+    "runsPerGame": 5.308642,
+    "wins": 99,
+    "losses": 63,
+    "winPercentage": 0.611111
   },
   {
     "season": 2023,
     "team": "TEX",
     "games": 162,
     "runs": 881,
-    "runsPerGame": 5.438272
+    "runsPerGame": 5.438272,
+    "wins": 90,
+    "losses": 72,
+    "winPercentage": 0.555556
   },
   {
     "season": 2023,
     "team": "TOR",
     "games": 162,
     "runs": 746,
-    "runsPerGame": 4.604938
+    "runsPerGame": 4.604938,
+    "wins": 89,
+    "losses": 73,
+    "winPercentage": 0.549383
   },
   {
     "season": 2023,
     "team": "WSN",
-    "games": 164,
-    "runs": 710,
-    "runsPerGame": 4.329268
+    "games": 162,
+    "runs": 700,
+    "runsPerGame": 4.320988,
+    "wins": 71,
+    "losses": 91,
+    "winPercentage": 0.438272
   }
 ]

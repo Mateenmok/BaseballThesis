@@ -6,6 +6,7 @@ const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const PLAYERS_PATH = path.join(ROOT_DIR, 'src/data/generated/players.json')
 const TEAMS_PATH = path.join(ROOT_DIR, 'src/data/teams.json')
 const OUTPUT_PATH = path.join(ROOT_DIR, 'src/data/generated/leadoff-metrics.json')
+const GAME_RESULTS_OUTPUT_PATH = path.join(ROOT_DIR, 'src/data/generated/leadoff-game-results.json')
 const TEAM_BASELINES_OUTPUT_PATH = path.join(ROOT_DIR, 'src/data/generated/team-season-runs.json')
 const CACHE_DIR = path.join(ROOT_DIR, 'data/cache/mlb')
 const API_ROOT = 'https://statsapi.mlb.com/api/v1'
@@ -100,6 +101,8 @@ for (const player of players) {
 const seasons = [...new Set(players.map(({ season }) => season))].sort()
 const finalGames = []
 const teamSeasonTotals = new Map()
+const leadoffGameResults = []
+const seenGameIds = new Set()
 
 for (const season of seasons) {
   const cachePath = path.join(CACHE_DIR, 'schedules', `${season}.json`)
@@ -110,14 +113,18 @@ for (const season of seasons) {
     for (const game of date.games ?? []) {
       if (game.status?.abstractGameState !== 'Final') continue
       if (!Number.isFinite(game.teams?.home?.score) || !Number.isFinite(game.teams?.away?.score)) continue
+      if (seenGameIds.has(game.gamePk)) continue
+      seenGameIds.add(game.gamePk)
       finalGames.push({ season, ...game })
 
       for (const side of ['away', 'home']) {
         const gameTeam = game.teams[side]
         const key = `${season}|${gameTeam.team.id}`
-        const total = teamSeasonTotals.get(key) ?? { games: 0, runs: 0 }
+        const total = teamSeasonTotals.get(key) ?? { games: 0, runs: 0, wins: 0, losses: 0 }
         total.games += 1
         total.runs += gameTeam.score
+        if (gameTeam.isWinner === true) total.wins += 1
+        if (gameTeam.isWinner === false) total.losses += 1
         teamSeasonTotals.set(key, total)
       }
     }
@@ -134,6 +141,8 @@ await mapWithConcurrency(finalGames, async (game) => {
 
   for (const side of ['away', 'home']) {
     const gameTeam = game.teams[side]
+    const opponentSide = side === 'away' ? 'home' : 'away'
+    const opponentTeam = game.teams[opponentSide]
     const teamId = gameTeam.team.id
     const leadoffPlayers = Object.values(boxscore.teams?.[side]?.players ?? {})
       .filter((player) => player.battingOrder === '100')
@@ -147,9 +156,30 @@ await mapWithConcurrency(finalGames, async (game) => {
       metric.teamRuns += gameTeam.score
       if (gameTeam.isWinner === true) metric.wins += 1
       if (gameTeam.isWinner === false) metric.losses += 1
+
+      leadoffGameResults.push({
+        season: game.season,
+        gamePk: game.gamePk,
+        date: game.gameDate.slice(0, 10),
+        team: metric.team,
+        teamId,
+        mlbId: leadoffPlayer.person.id,
+        opponentTeamId: opponentTeam.team.id,
+        homeAway: side,
+        teamRuns: gameTeam.score,
+        opponentRuns: opponentTeam.score,
+        won: gameTeam.isWinner === true,
+      })
     }
   }
 })
+
+leadoffGameResults.sort((a, b) =>
+  b.season - a.season ||
+  a.team.localeCompare(b.team) ||
+  a.mlbId - b.mlbId ||
+  a.date.localeCompare(b.date) ||
+  a.gamePk - b.gamePk)
 
 const metrics = [...trackedPlayers.values()]
   .map(({ teamRuns, ...metric }) => ({
@@ -181,6 +211,11 @@ const teamSeasonRuns = [...teamSeasons.values()]
       games: total.games,
       runs: total.runs,
       runsPerGame: Number((total.runs / total.games).toFixed(6)),
+      wins: total.wins,
+      losses: total.losses,
+      winPercentage: total.wins + total.losses > 0
+        ? Number((total.wins / (total.wins + total.losses)).toFixed(6))
+        : null,
     }
   })
   .sort((a, b) => b.season - a.season || a.team.localeCompare(b.team))
@@ -188,6 +223,7 @@ const teamSeasonRuns = [...teamSeasons.values()]
 await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true })
 await Promise.all([
   fs.writeFile(OUTPUT_PATH, `${JSON.stringify(metrics, null, 2)}\n`),
+  fs.writeFile(GAME_RESULTS_OUTPUT_PATH, `${JSON.stringify(leadoffGameResults, null, 2)}\n`),
   fs.writeFile(TEAM_BASELINES_OUTPUT_PATH, `${JSON.stringify(teamSeasonRuns, null, 2)}\n`),
 ])
 
@@ -202,5 +238,7 @@ console.log(`Metric rows emitted: ${metrics.length}`)
 console.log(`Rows with matched leadoff games: ${rowsWithGames.length}`)
 console.log(`Workbook/API game-count mismatches: ${countMismatches.length}`)
 console.log(`Generated: ${path.relative(ROOT_DIR, OUTPUT_PATH)}`)
+console.log(`Leadoff game observations emitted: ${leadoffGameResults.length}`)
+console.log(`Generated: ${path.relative(ROOT_DIR, GAME_RESULTS_OUTPUT_PATH)}`)
 console.log(`Team-season baselines emitted: ${teamSeasonRuns.length}`)
 console.log(`Generated: ${path.relative(ROOT_DIR, TEAM_BASELINES_OUTPUT_PATH)}`)
