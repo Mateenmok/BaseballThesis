@@ -20,7 +20,6 @@ const LeadoffSwapAnalysis = lazy(() => import('./LeadoffSwapAnalysis'))
 
 function App() {
   const [route, setRoute] = useState(readAppRoute)
-  const [showResearchQuestions, setShowResearchQuestions] = useState(true)
   const [analysisMode, setAnalysisMode] = useState<'team' | 'league'>('team')
   const [selectedTeam, setSelectedTeam] = useState<TeamName | ''>('')
   const [selectedSeason, setSelectedSeason] = useState<Season>(2026)
@@ -131,51 +130,9 @@ function App() {
     )
   }
 
-  if (showResearchQuestions) {
-    return (
-      <main className="research-intro">
-        <header className="research-intro__masthead">
-          <span>MokMetrics</span>
-          <span>MLB leadoff hitter analysis</span>
-        </header>
-
-        <section className="research-intro__content" aria-labelledby="research-intro-title">
-          <p className="research-intro__eyebrow">Research framing</p>
-          <h1 id="research-intro-title">Two questions guide this analysis.</h1>
-
-          <ol className="research-questions">
-            <li>
-              <span className="research-question__number" aria-hidden="true">01</span>
-              <p>What is the most impactful spot of the MLB batting order?</p>
-            </li>
-            <li>
-              <span className="research-question__number" aria-hidden="true">02</span>
-              <p>What makes a good candidate to hit in that part of the lineup?</p>
-            </li>
-          </ol>
-
-          <div className="research-intro__next-step">
-            <p>We’ll answer these questions in order, beginning with the role of lineup position.</p>
-            <button type="button" onClick={() => setShowResearchQuestions(false)}>
-              Begin the walkthrough
-              <span aria-hidden="true">→</span>
-            </button>
-          </div>
-        </section>
-      </main>
-    )
-  }
-
   return (
     <main className="page-shell">
-      <header className="analysis-home__header">
-        <button type="button" onClick={() => setShowResearchQuestions(true)}>
-          <span aria-hidden="true">←</span>
-          Research questions
-        </button>
-        <p>MokMetrics</p>
-        <h1>Explore the evidence</h1>
-      </header>
+      <h1>Baseball Demo</h1>
 
       <nav className="analysis-switch" aria-label="Analysis mode">
         <button
