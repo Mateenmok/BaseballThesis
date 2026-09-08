@@ -1,6 +1,7 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import { MLB_TEAMS, SEASONS, type Season, type TeamName } from './data'
 import PlayerList from './PlayerList'
+import LandingPage from './LandingPage'
 import { PLAYER_SEASONS, type PlayerSeason } from './playerData'
 import {
   getPlayerProfileHref,
@@ -20,6 +21,7 @@ const LeadoffSwapAnalysis = lazy(() => import('./LeadoffSwapAnalysis'))
 
 function App() {
   const [route, setRoute] = useState(readAppRoute)
+  const [showLanding, setShowLanding] = useState(route.kind === 'analysis')
   const [analysisMode, setAnalysisMode] = useState<'team' | 'league'>('team')
   const [selectedTeam, setSelectedTeam] = useState<TeamName | ''>('')
   const [selectedSeason, setSelectedSeason] = useState<Season>(2026)
@@ -50,6 +52,7 @@ function App() {
   const navigateHome = useCallback(() => {
     window.history.pushState(null, '', '/')
     setRoute({ kind: 'analysis' })
+    setShowLanding(false)
     window.scrollTo(0, 0)
   }, [])
 
@@ -127,6 +130,17 @@ function App() {
           onOpenPlayer={openPlayerProfile}
         />
       </Suspense>
+    )
+  }
+
+  if (showLanding) {
+    return (
+      <LandingPage
+        onBegin={() => {
+          setShowLanding(false)
+          window.scrollTo(0, 0)
+        }}
+      />
     )
   }
 
